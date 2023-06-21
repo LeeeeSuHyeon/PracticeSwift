@@ -19,7 +19,7 @@ class SocketIOManager {
     private let manager: SocketManager
     
     // manager.defaultSocekt을 통해 기본 소켓을 가져옴
-    private let socket: SocketIOClient
+    let socket: SocketIOClient
     
     private init() {
         manager = SocketManager(socketURL: URL(string: "http://localhost:9000")!, config: [.log(true), .compress])
