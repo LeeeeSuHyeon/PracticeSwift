@@ -42,15 +42,34 @@
             </objects>
             <point key="canvasLocation" x="136.64122137404578" y="3.5211267605633805"/>
         </scene>
-        <!--View Controller-->
+        <!--Other View Controller-->
         <scene sceneID="yAg-uK-gtU">
             <objects>
-                <viewController storyboardIdentifier="OtherViewController" id="ch9-sI-AdH" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OtherViewController" id="ch9-sI-AdH" customClass="OtherViewController" customModule="PracticeSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WRJ-zf-4iH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIw-FU-c6s">
+                                <rect key="frame" x="146.66666666666666" y="376" width="100" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="BPa-BD-Qaq"/>
+                                    <constraint firstAttribute="height" constant="100" id="sMW-ze-PBx"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="dismiss"/>
+                                <connections>
+                                    <action selector="dismissButton:" destination="ch9-sI-AdH" eventType="touchUpInside" id="kKF-cP-Qf4"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="nqw-E5-dwk"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
+                        <constraints>
+                            <constraint firstItem="NIw-FU-c6s" firstAttribute="centerX" secondItem="WRJ-zf-4iH" secondAttribute="centerX" id="5lU-bn-Frv"/>
+                            <constraint firstItem="NIw-FU-c6s" firstAttribute="centerY" secondItem="WRJ-zf-4iH" secondAttribute="centerY" id="QZV-Cf-Kno"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pTT-b5-uJr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
