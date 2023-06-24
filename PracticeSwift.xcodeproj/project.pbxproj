@@ -22,6 +22,9 @@
 		CBF59E4D2A45554F00B12F82 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E4C2A45554F00B12F82 /* OtherViewController.swift */; };
 		CBF59E502A455A7600B12F82 /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF59E4F2A455A7600B12F82 /* Navigation.storyboard */; };
 		CBF59E522A455E1800B12F82 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E512A455E1800B12F82 /* MainViewController.swift */; };
+		CBF59E582A47364F00B12F82 /* TableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF59E572A47364F00B12F82 /* TableView.storyboard */; };
+		CBF59E5A2A47368500B12F82 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E592A47368500B12F82 /* TableViewController.swift */; };
+		CBF59E5C2A47369100B12F82 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E5B2A47369100B12F82 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		CBF59E4C2A45554F00B12F82 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 		CBF59E4F2A455A7600B12F82 /* Navigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
 		CBF59E512A455E1800B12F82 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CBF59E572A47364F00B12F82 /* TableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableView.storyboard; sourceTree = "<group>"; };
+		CBF59E592A47368500B12F82 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CBF59E5B2A47369100B12F82 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E47C0C652E349E479A286D7D /* Pods-PracticeSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeSwift.release.xcconfig"; path = "Target Support Files/Pods-PracticeSwift/Pods-PracticeSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +93,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CBF59E562A47364000B12F82 /* TableView */,
 				CBF59E4E2A455A5B00B12F82 /* NavigationController */,
 				CBF59E472A4410DD00B12F82 /* Present */,
 				CBF59E462A4410C100B12F82 /* SocketIO */,
@@ -128,6 +135,16 @@
 				CBF59E512A455E1800B12F82 /* MainViewController.swift */,
 			);
 			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		CBF59E562A47364000B12F82 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				CBF59E572A47364F00B12F82 /* TableView.storyboard */,
+				CBF59E592A47368500B12F82 /* TableViewController.swift */,
+				CBF59E5B2A47369100B12F82 /* TableViewCell.swift */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		E8494688B02C7719A79C3D47 /* Pods */ = {
@@ -204,6 +221,7 @@
 				CBF59E502A455A7600B12F82 /* Navigation.storyboard in Resources */,
 				CBF59E342A41A2AC00B12F82 /* Assets.xcassets in Resources */,
 				CBF59E322A41A2AB00B12F82 /* Main.storyboard in Resources */,
+				CBF59E582A47364F00B12F82 /* TableView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +277,10 @@
 				CBF59E4B2A44146600B12F82 /* ChangeViewController.swift in Sources */,
 				CBF59E452A430F8A00B12F82 /* OtherMessageCell.swift in Sources */,
 				CBF59E432A42F70900B12F82 /* MyMessageCell.swift in Sources */,
+				CBF59E5A2A47368500B12F82 /* TableViewController.swift in Sources */,
 				CBF59E3F2A41A91C00B12F82 /* SocketIOManager.swift in Sources */,
 				CBF59E2F2A41A2AB00B12F82 /* ChatViewController.swift in Sources */,
+				CBF59E5C2A47369100B12F82 /* TableViewCell.swift in Sources */,
 				CBF59E4D2A45554F00B12F82 /* OtherViewController.swift in Sources */,
 				CBF59E522A455E1800B12F82 /* MainViewController.swift in Sources */,
 				CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */,
