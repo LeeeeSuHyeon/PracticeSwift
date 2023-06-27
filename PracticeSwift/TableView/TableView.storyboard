@@ -19,6 +19,34 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hOj-AS-7Fm">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" id="WOl-Kz-Ybh" customClass="TableViewCell" customModule="PracticeSwift" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="76.333335876464844"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WOl-Kz-Ybh" id="yBg-uX-Syc">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="76.333335876464844"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnU-dc-Xgp">
+                                                    <rect key="frame" x="20" y="11.000000000000004" width="353" height="54.333333333333343"/>
+                                                    <color key="backgroundColor" systemColor="tintColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="AnU-dc-Xgp" firstAttribute="top" secondItem="yBg-uX-Syc" secondAttribute="topMargin" id="Bdq-Wg-Aic"/>
+                                                <constraint firstItem="AnU-dc-Xgp" firstAttribute="leading" secondItem="yBg-uX-Syc" secondAttribute="leadingMargin" id="CKg-A5-6qn"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="AnU-dc-Xgp" secondAttribute="bottom" id="FTx-HE-Bgq"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="AnU-dc-Xgp" secondAttribute="trailing" id="hMa-aN-ssD"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="myLabel" destination="AnU-dc-Xgp" id="rgx-Mw-FEK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -42,6 +70,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

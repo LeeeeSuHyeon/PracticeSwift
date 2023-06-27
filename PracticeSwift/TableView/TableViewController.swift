@@ -11,10 +11,11 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
 
     @IBOutlet weak var table: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
         table.dataSource = self
         table.delegate = self
        
@@ -24,17 +25,22 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        5
+        return 5
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: "myCell")
-        cell.textLabel?.text = "\(indexPath.row)"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! TableViewCell
+        cell.myLabel.text = indexPath.description
+    
+        
         return cell
     }
-    
+
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
     }
 
 }
+
+
+
