@@ -12,6 +12,8 @@
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
 		CBA63C3D2A50017E00DD771B /* AlamofireResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3C2A50017E00DD771B /* AlamofireResponse.swift */; };
+		CBA63C402A50217000DD771B /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C3F2A50217000DD771B /* Alert.storyboard */; };
+		CBA63C422A50217800DD771B /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C412A50217800DD771B /* AlertViewController.swift */; };
 		CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2A2A41A2AB00B12F82 /* AppDelegate.swift */; };
 		CBF59E2D2A41A2AB00B12F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2C2A41A2AB00B12F82 /* SceneDelegate.swift */; };
 		CBF59E2F2A41A2AB00B12F82 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2E2A41A2AB00B12F82 /* ChatViewController.swift */; };
@@ -43,6 +45,8 @@
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
 		CBA63C3C2A50017E00DD771B /* AlamofireResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireResponse.swift; sourceTree = "<group>"; };
+		CBA63C3F2A50217000DD771B /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
+		CBA63C412A50217800DD771B /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		CBF59E272A41A2AB00B12F82 /* PracticeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF59E2A2A41A2AB00B12F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF59E2C2A41A2AB00B12F82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,15 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
+		CBA63C3E2A50215D00DD771B /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				CBA63C3F2A50217000DD771B /* Alert.storyboard */,
+				CBA63C412A50217800DD771B /* AlertViewController.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		CBF59E1E2A41A2AB00B12F82 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +135,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CBA63C3E2A50215D00DD771B /* Alert */,
 				CBA63C372A4FFFB800DD771B /* Alamofire */,
 				CBF59E672A4EA3F300B12F82 /* URLSessionAPI */,
 				CBF59E662A4C33C000B12F82 /* Optional */,
@@ -276,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF59E372A41A2AC00B12F82 /* LaunchScreen.storyboard in Resources */,
+				CBA63C402A50217000DD771B /* Alert.storyboard in Resources */,
 				CBF59E692A4EA40D00B12F82 /* URLSessionAPI.storyboard in Resources */,
 				CBF59E492A44111D00B12F82 /* Storyboard.storyboard in Resources */,
 				CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */,
@@ -349,6 +364,7 @@
 				CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */,
 				CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */,
 				CBA63C3D2A50017E00DD771B /* AlamofireResponse.swift in Sources */,
+				CBA63C422A50217800DD771B /* AlertViewController.swift in Sources */,
 				CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */,
 				CBF59E6F2A4EABD800B12F82 /* ApiViewController.swift in Sources */,
 				CBF59E652A4C33B900B12F82 /* OptionalViewController.swift in Sources */,
