@@ -9,4 +9,6 @@ target 'PracticeSwift' do
 
   pod 'Socket.IO-Client-Swift'
 
+  pod 'Alamofire', '5.1'
+
 end
