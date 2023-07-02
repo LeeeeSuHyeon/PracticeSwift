@@ -14,6 +14,10 @@
 		CBA63C3D2A50017E00DD771B /* AlamofireResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3C2A50017E00DD771B /* AlamofireResponse.swift */; };
 		CBA63C402A50217000DD771B /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C3F2A50217000DD771B /* Alert.storyboard */; };
 		CBA63C422A50217800DD771B /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C412A50217800DD771B /* AlertViewController.swift */; };
+		CBA63C452A515F2C00DD771B /* MVVM.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C442A515F2C00DD771B /* MVVM.storyboard */; };
+		CBA63C472A515F4500DD771B /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C462A515F4500DD771B /* UserProfileViewController.swift */; };
+		CBA63C492A515F5200DD771B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C482A515F5200DD771B /* User.swift */; };
+		CBA63C4B2A515F6000DD771B /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C4A2A515F6000DD771B /* UserViewModel.swift */; };
 		CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2A2A41A2AB00B12F82 /* AppDelegate.swift */; };
 		CBF59E2D2A41A2AB00B12F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2C2A41A2AB00B12F82 /* SceneDelegate.swift */; };
 		CBF59E2F2A41A2AB00B12F82 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2E2A41A2AB00B12F82 /* ChatViewController.swift */; };
@@ -47,6 +51,10 @@
 		CBA63C3C2A50017E00DD771B /* AlamofireResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireResponse.swift; sourceTree = "<group>"; };
 		CBA63C3F2A50217000DD771B /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
 		CBA63C412A50217800DD771B /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		CBA63C442A515F2C00DD771B /* MVVM.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MVVM.storyboard; sourceTree = "<group>"; };
+		CBA63C462A515F4500DD771B /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		CBA63C482A515F5200DD771B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CBA63C4A2A515F6000DD771B /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		CBF59E272A41A2AB00B12F82 /* PracticeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF59E2A2A41A2AB00B12F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF59E2C2A41A2AB00B12F82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +122,17 @@
 			path = Alert;
 			sourceTree = "<group>";
 		};
+		CBA63C432A515F0B00DD771B /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				CBA63C442A515F2C00DD771B /* MVVM.storyboard */,
+				CBA63C462A515F4500DD771B /* UserProfileViewController.swift */,
+				CBA63C482A515F5200DD771B /* User.swift */,
+				CBA63C4A2A515F6000DD771B /* UserViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		CBF59E1E2A41A2AB00B12F82 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +154,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CBA63C432A515F0B00DD771B /* MVVM */,
 				CBA63C3E2A50215D00DD771B /* Alert */,
 				CBA63C372A4FFFB800DD771B /* Alamofire */,
 				CBF59E672A4EA3F300B12F82 /* URLSessionAPI */,
@@ -294,6 +314,7 @@
 				CBF59E692A4EA40D00B12F82 /* URLSessionAPI.storyboard in Resources */,
 				CBF59E492A44111D00B12F82 /* Storyboard.storyboard in Resources */,
 				CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */,
+				CBA63C452A515F2C00DD771B /* MVVM.storyboard in Resources */,
 				CBF59E502A455A7600B12F82 /* Navigation.storyboard in Resources */,
 				CBF59E342A41A2AC00B12F82 /* Assets.xcassets in Resources */,
 				CBF59E322A41A2AB00B12F82 /* Main.storyboard in Resources */,
@@ -353,11 +374,13 @@
 			files = (
 				CBF59E4B2A44146600B12F82 /* ChangeViewController.swift in Sources */,
 				CBF59E452A430F8A00B12F82 /* OtherMessageCell.swift in Sources */,
+				CBA63C472A515F4500DD771B /* UserProfileViewController.swift in Sources */,
 				CBF59E432A42F70900B12F82 /* MyMessageCell.swift in Sources */,
 				CBF59E3F2A41A91C00B12F82 /* SocketIOManager.swift in Sources */,
 				CBF59E2F2A41A2AB00B12F82 /* ChatViewController.swift in Sources */,
 				CBF59E5C2A47369100B12F82 /* TableViewCell.swift in Sources */,
 				CBF59E5E2A49C94700B12F82 /* TableViewController.swift in Sources */,
+				CBA63C492A515F5200DD771B /* User.swift in Sources */,
 				CBF59E632A4C079A00B12F82 /* ScrollViewController.swift in Sources */,
 				CBF59E4D2A45554F00B12F82 /* OtherViewController.swift in Sources */,
 				CBF59E522A455E1800B12F82 /* MainViewController.swift in Sources */,
@@ -368,6 +391,7 @@
 				CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */,
 				CBF59E6F2A4EABD800B12F82 /* ApiViewController.swift in Sources */,
 				CBF59E652A4C33B900B12F82 /* OptionalViewController.swift in Sources */,
+				CBA63C4B2A515F6000DD771B /* UserViewModel.swift in Sources */,
 				CBF59E2D2A41A2AB00B12F82 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
