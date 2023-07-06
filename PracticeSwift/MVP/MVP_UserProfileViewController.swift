@@ -7,23 +7,29 @@
 
 import UIKit
 
-class MVP_UserProfileViewController: UIViewController {
+class MVP_UserProfileViewController: UIViewController, MVP_UserProfileView {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
     
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
+    
+    
+    private var presenter: MVP_UserProfilePresenter!
 
-    /*
-    // MARK: - Navigation
+       override func viewDidLoad() {
+           super.viewDidLoad()
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+           let user = MVP_User(name: "MVP길동", age: 24)
+           presenter = MVP_UserProfilePresenter(user: user, view: self)
+           presenter.updateUserProfile()
+       }
 
-}
+       func showUserName(_ name: String) {
+           nameLabel.text = name
+       }
+
+       func showUserAge(_ age: Int) {
+           ageLabel.text = "\(age)"
+       }
+   }

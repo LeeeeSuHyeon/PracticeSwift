@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+// 모델 (Model)
+struct MVP_User {
+    let name: String
+    let age: Int
+}

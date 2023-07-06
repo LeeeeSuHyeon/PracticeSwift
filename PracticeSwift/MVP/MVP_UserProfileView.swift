@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+// 뷰 (View)
+protocol MVP_UserProfileView: AnyObject {
+    func showUserName(_ name: String)
+    func showUserAge(_ age: Int)
+}
