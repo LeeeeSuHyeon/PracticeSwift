@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		31B8F07522BD044FC6F0C0CF /* Pods_PracticeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1947A08ADD13AE46B968E /* Pods_PracticeSwift.framework */; };
+		CB0D2FB52A593F5500B18C93 /* Singleton.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FB42A593F5500B18C93 /* Singleton.storyboard */; };
+		CB0D2FB72A593F6000B18C93 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FB62A593F6000B18C93 /* SingletonViewController.swift */; };
 		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
@@ -54,6 +56,8 @@
 /* Begin PBXFileReference section */
 		66D67B2E974E3060DD1BAAA3 /* Pods-PracticeSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeSwift.debug.xcconfig"; path = "Target Support Files/Pods-PracticeSwift/Pods-PracticeSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		77C1947A08ADD13AE46B968E /* Pods_PracticeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0D2FB42A593F5500B18C93 /* Singleton.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Singleton.storyboard; sourceTree = "<group>"; };
+		CB0D2FB62A593F6000B18C93 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -118,6 +122,15 @@
 				77C1947A08ADD13AE46B968E /* Pods_PracticeSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB0D2FB32A593F4700B18C93 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				CB0D2FB42A593F5500B18C93 /* Singleton.storyboard */,
+				CB0D2FB62A593F6000B18C93 /* SingletonViewController.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 		CBA63C372A4FFFB800DD771B /* Alamofire */ = {
@@ -195,6 +208,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB0D2FB32A593F4700B18C93 /* Singleton */,
 				CBA63C562A55A83500DD771B /* MVP */,
 				CBA63C4C2A516A6000DD771B /* MVC */,
 				CBA63C432A515F0B00DD771B /* MVVM */,
@@ -354,6 +368,7 @@
 			files = (
 				CBF59E372A41A2AC00B12F82 /* LaunchScreen.storyboard in Resources */,
 				CBA63C402A50217000DD771B /* Alert.storyboard in Resources */,
+				CB0D2FB52A593F5500B18C93 /* Singleton.storyboard in Resources */,
 				CBF59E692A4EA40D00B12F82 /* URLSessionAPI.storyboard in Resources */,
 				CBF59E492A44111D00B12F82 /* Storyboard.storyboard in Resources */,
 				CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */,
@@ -425,6 +440,7 @@
 				CBF59E432A42F70900B12F82 /* MyMessageCell.swift in Sources */,
 				CBA63C5A2A55A85400DD771B /* MVP_User.swift in Sources */,
 				CBA63C5E2A55A87F00DD771B /* MVP_UserProfilePresenter.swift in Sources */,
+				CB0D2FB72A593F6000B18C93 /* SingletonViewController.swift in Sources */,
 				CBF59E3F2A41A91C00B12F82 /* SocketIOManager.swift in Sources */,
 				CBA63C502A516B7B00DD771B /* MVC_User.swift in Sources */,
 				CBF59E2F2A41A2AB00B12F82 /* ChatViewController.swift in Sources */,
