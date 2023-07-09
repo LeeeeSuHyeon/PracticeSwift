@@ -12,6 +12,8 @@
 		CB0D2FB72A593F6000B18C93 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FB62A593F6000B18C93 /* SingletonViewController.swift */; };
 		CB0D2FBA2A5948A000B18C93 /* BuilderPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FB92A5948A000B18C93 /* BuilderPatternViewController.swift */; };
 		CB0D2FBE2A594A2C00B18C93 /* BuilderPattern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FBD2A594A2C00B18C93 /* BuilderPattern.storyboard */; };
+		CB0D2FC12A5A8F8600B18C93 /* QuickHelp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FC02A5A8F8600B18C93 /* QuickHelp.storyboard */; };
+		CB0D2FC32A5A8F9100B18C93 /* QuickHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FC22A5A8F9100B18C93 /* QuickHelpViewController.swift */; };
 		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
@@ -62,6 +64,8 @@
 		CB0D2FB62A593F6000B18C93 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
 		CB0D2FB92A5948A000B18C93 /* BuilderPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPatternViewController.swift; sourceTree = "<group>"; };
 		CB0D2FBD2A594A2C00B18C93 /* BuilderPattern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BuilderPattern.storyboard; sourceTree = "<group>"; };
+		CB0D2FC02A5A8F8600B18C93 /* QuickHelp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuickHelp.storyboard; sourceTree = "<group>"; };
+		CB0D2FC22A5A8F9100B18C93 /* QuickHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickHelpViewController.swift; sourceTree = "<group>"; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -146,6 +150,15 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		CB0D2FBF2A5A8F7500B18C93 /* QuickHelp */ = {
+			isa = PBXGroup;
+			children = (
+				CB0D2FC02A5A8F8600B18C93 /* QuickHelp.storyboard */,
+				CB0D2FC22A5A8F9100B18C93 /* QuickHelpViewController.swift */,
+			);
+			path = QuickHelp;
+			sourceTree = "<group>";
+		};
 		CBA63C372A4FFFB800DD771B /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +234,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB0D2FBF2A5A8F7500B18C93 /* QuickHelp */,
 				CB0D2FB82A59489000B18C93 /* Builder */,
 				CB0D2FB32A593F4700B18C93 /* Singleton */,
 				CBA63C562A55A83500DD771B /* MVP */,
@@ -381,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF59E372A41A2AC00B12F82 /* LaunchScreen.storyboard in Resources */,
+				CB0D2FC12A5A8F8600B18C93 /* QuickHelp.storyboard in Resources */,
 				CBA63C402A50217000DD771B /* Alert.storyboard in Resources */,
 				CB0D2FB52A593F5500B18C93 /* Singleton.storyboard in Resources */,
 				CBF59E692A4EA40D00B12F82 /* URLSessionAPI.storyboard in Resources */,
@@ -451,6 +466,7 @@
 				CBA63C5C2A55A86900DD771B /* MVP_UserProfileView.swift in Sources */,
 				CBF59E452A430F8A00B12F82 /* OtherMessageCell.swift in Sources */,
 				CBA63C542A516C7C00DD771B /* MVC_UserProfileController.swift in Sources */,
+				CB0D2FC32A5A8F9100B18C93 /* QuickHelpViewController.swift in Sources */,
 				CBA63C472A515F4500DD771B /* UserProfileViewController.swift in Sources */,
 				CB0D2FBA2A5948A000B18C93 /* BuilderPatternViewController.swift in Sources */,
 				CBF59E432A42F70900B12F82 /* MyMessageCell.swift in Sources */,
