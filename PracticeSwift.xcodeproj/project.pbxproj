@@ -14,6 +14,8 @@
 		CB0D2FBE2A594A2C00B18C93 /* BuilderPattern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FBD2A594A2C00B18C93 /* BuilderPattern.storyboard */; };
 		CB0D2FC12A5A8F8600B18C93 /* QuickHelp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FC02A5A8F8600B18C93 /* QuickHelp.storyboard */; };
 		CB0D2FC32A5A8F9100B18C93 /* QuickHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FC22A5A8F9100B18C93 /* QuickHelpViewController.swift */; };
+		CB0D2FC62A5BD5BE00B18C93 /* Dependency.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FC52A5BD5BE00B18C93 /* Dependency.storyboard */; };
+		CB0D2FC82A5BD5CB00B18C93 /* DependencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FC72A5BD5CB00B18C93 /* DependencyViewController.swift */; };
 		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
@@ -66,6 +68,10 @@
 		CB0D2FBD2A594A2C00B18C93 /* BuilderPattern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BuilderPattern.storyboard; sourceTree = "<group>"; };
 		CB0D2FC02A5A8F8600B18C93 /* QuickHelp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuickHelp.storyboard; sourceTree = "<group>"; };
 		CB0D2FC22A5A8F9100B18C93 /* QuickHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickHelpViewController.swift; sourceTree = "<group>"; };
+		CB0D2FC52A5BD5BE00B18C93 /* Dependency.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dependency.storyboard; sourceTree = "<group>"; };
+		CB0D2FC72A5BD5CB00B18C93 /* DependencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyViewController.swift; sourceTree = "<group>"; };
+		CB0D2FC92A5BD97E00B18C93 /* Dependency.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dependency.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB0D2FCB2A5D381400B18C93 /* HigherOrderFunction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HigherOrderFunction.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -159,6 +165,24 @@
 			path = QuickHelp;
 			sourceTree = "<group>";
 		};
+		CB0D2FC42A5BD5A100B18C93 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				CB0D2FC52A5BD5BE00B18C93 /* Dependency.storyboard */,
+				CB0D2FC72A5BD5CB00B18C93 /* DependencyViewController.swift */,
+				CB0D2FC92A5BD97E00B18C93 /* Dependency.playground */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		CB0D2FCA2A5D37F400B18C93 /* HigherOrderFunction */ = {
+			isa = PBXGroup;
+			children = (
+				CB0D2FCB2A5D381400B18C93 /* HigherOrderFunction.playground */,
+			);
+			path = HigherOrderFunction;
+			sourceTree = "<group>";
+		};
 		CBA63C372A4FFFB800DD771B /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +258,8 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB0D2FCA2A5D37F400B18C93 /* HigherOrderFunction */,
+				CB0D2FC42A5BD5A100B18C93 /* DependencyInjection */,
 				CB0D2FBF2A5A8F7500B18C93 /* QuickHelp */,
 				CB0D2FB82A59489000B18C93 /* Builder */,
 				CB0D2FB32A593F4700B18C93 /* Singleton */,
@@ -409,6 +435,7 @@
 				CBF59E342A41A2AC00B12F82 /* Assets.xcassets in Resources */,
 				CBF59E322A41A2AB00B12F82 /* Main.storyboard in Resources */,
 				CBF59E582A47364F00B12F82 /* TableView.storyboard in Resources */,
+				CB0D2FC62A5BD5BE00B18C93 /* Dependency.storyboard in Resources */,
 				CBF59E612A4C078900B12F82 /* ScrollView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +512,7 @@
 				CBF59E522A455E1800B12F82 /* MainViewController.swift in Sources */,
 				CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */,
 				CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */,
+				CB0D2FC82A5BD5CB00B18C93 /* DependencyViewController.swift in Sources */,
 				CBA63C3D2A50017E00DD771B /* AlamofireResponse.swift in Sources */,
 				CBA63C422A50217800DD771B /* AlertViewController.swift in Sources */,
 				CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */,
