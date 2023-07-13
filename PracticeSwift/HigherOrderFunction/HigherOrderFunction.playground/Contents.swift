@@ -72,3 +72,6 @@ print(doubleFalttenArray) // 출력: [1, 2, 3, 4, 5, 6, 7, 8]
 
 let flattenMap = nestedArray.flatMap{ $0.flatMap{ $0 }}
 print(flattenMap)  // 출력: [1, 2, 3, 4, 5, 6, 7, 8]
+
+
+

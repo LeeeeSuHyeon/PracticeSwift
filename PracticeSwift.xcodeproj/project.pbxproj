@@ -72,6 +72,7 @@
 		CB0D2FC72A5BD5CB00B18C93 /* DependencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyViewController.swift; sourceTree = "<group>"; };
 		CB0D2FC92A5BD97E00B18C93 /* Dependency.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dependency.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CB0D2FCB2A5D381400B18C93 /* HigherOrderFunction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HigherOrderFunction.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB0D2FCD2A5FF51900B18C93 /* Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -183,6 +184,14 @@
 			path = HigherOrderFunction;
 			sourceTree = "<group>";
 		};
+		CB0D2FCC2A5FF51000B18C93 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				CB0D2FCD2A5FF51900B18C93 /* Sort.playground */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		CBA63C372A4FFFB800DD771B /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +267,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB0D2FCC2A5FF51000B18C93 /* Sort */,
 				CB0D2FCA2A5D37F400B18C93 /* HigherOrderFunction */,
 				CB0D2FC42A5BD5A100B18C93 /* DependencyInjection */,
 				CB0D2FBF2A5A8F7500B18C93 /* QuickHelp */,
