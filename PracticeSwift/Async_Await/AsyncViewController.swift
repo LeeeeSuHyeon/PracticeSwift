@@ -12,13 +12,8 @@ class AsyncViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        func process() async {
-            do {
-                let data = try await fetchData()
-                // 데이터를 가지고 추가 작업을 수행
-            } catch {
-                // 에러 처리
-            }
+        Task{
+            await self.process()
         }
 
     }
@@ -30,6 +25,17 @@ class AsyncViewController: UIViewController {
         let (data, _) = try await URLSession.shared.data(from: url)
      
         return data
+    }
+    
+    
+    
+    func process() async {
+        do {
+            let data = try await fetchData()
+            // 데이터를 가지고 추가 작업을 수행
+        } catch {
+            // 에러 처리
+        }
     }
 
 }
