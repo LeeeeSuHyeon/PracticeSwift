@@ -15,9 +15,21 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jRt-fC-q1y">
+                                <rect key="frame" x="36" y="318" width="320" height="216"/>
+                            </pickerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jRt-fC-q1y" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="L5F-Xa-NlX"/>
+                            <constraint firstItem="jRt-fC-q1y" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="MTp-i1-QVc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pickerView" destination="jRt-fC-q1y" id="Q2b-d6-Jsh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
