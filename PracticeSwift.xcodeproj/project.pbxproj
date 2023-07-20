@@ -22,6 +22,7 @@
 		CB0D2FD72A6277D100B18C93 /* CompletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FD62A6277D100B18C93 /* CompletionViewController.swift */; };
 		CB0D2FDA2A641CF300B18C93 /* PickerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FD92A641CF300B18C93 /* PickerView.storyboard */; };
 		CB0D2FDC2A641CFB00B18C93 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */; };
+		CB0D2FDF2A693B2C00B18C93 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */; };
 		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
@@ -85,6 +86,7 @@
 		CB0D2FD62A6277D100B18C93 /* CompletionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionViewController.swift; sourceTree = "<group>"; };
 		CB0D2FD92A641CF300B18C93 /* PickerView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickerView.storyboard; sourceTree = "<group>"; };
 		CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -231,6 +233,14 @@
 			path = PickerView;
 			sourceTree = "<group>";
 		};
+		CB0D2FDD2A693B1600B18C93 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
 		CBA63C372A4FFFB800DD771B /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +316,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB0D2FDD2A693B1600B18C93 /* SnapKit */,
 				CB0D2FD82A641CE500B18C93 /* PickerView */,
 				CB0D2FD32A6277B300B18C93 /* CompletionHandler */,
 				CB0D2FCE2A613C8200B18C93 /* Async_Await */,
@@ -547,6 +558,7 @@
 				CBF59E4B2A44146600B12F82 /* ChangeViewController.swift in Sources */,
 				CBA63C5C2A55A86900DD771B /* MVP_UserProfileView.swift in Sources */,
 				CBF59E452A430F8A00B12F82 /* OtherMessageCell.swift in Sources */,
+				CB0D2FDF2A693B2C00B18C93 /* SnapKitViewController.swift in Sources */,
 				CBA63C542A516C7C00DD771B /* MVC_UserProfileController.swift in Sources */,
 				CB0D2FD72A6277D100B18C93 /* CompletionViewController.swift in Sources */,
 				CB0D2FDC2A641CFB00B18C93 /* PickerViewController.swift in Sources */,
