@@ -6,16 +6,28 @@
 //
 
 import UIKit
+import snapKit
 
 class SnapKitViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    lazy var redView: UIView = {
+            let view = UIView()
+            view.backgroundColor = .red
+            return view
+        }()
 
-        // Do any additional setup after loading the view.
-    }
-    
+        override func viewDidLoad() {
+            super.viewDidLoad()
 
+            view.addSubview(redView)
+
+            redView.snp.makeConstraints { make in
+                make.centerX.equalToSuperview()
+                make.centerY.equalToSuperview()
+                make.width.equalTo(100)
+                make.height.equalTo(100)
+            }
+        }
    
 
 }
