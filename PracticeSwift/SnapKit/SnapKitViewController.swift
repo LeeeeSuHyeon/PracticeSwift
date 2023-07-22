@@ -6,31 +6,127 @@
 //
 
 import UIKit
-import snapKit
+import SnapKit
 
 class SnapKitViewController: UIViewController {
 
-    lazy var redView: UIView = {
+    
+    // 빨간색 뷰
+    lazy var redView: UIView = { () -> UIView in
             let view = UIView()
             view.backgroundColor = .red
             return view
-        }()
+        }()     // '()' 추가하여 viewDidLoad()에서 addSubview(redView()) 추가 시 () 사용 안 해도 됨
 
+    // 파란색 뷰
+    lazy var blueView: UIView = { () -> UIView in
+            let view = UIView()
+            view.backgroundColor = .blue
+            return view
+        }()
+    
+    
+    // 버튼 추가
+    lazy var myButton = { (color : UIColor) -> UIButton in
+        let btn = UIButton(type: .system)
+        btn.backgroundColor = color
+        btn.setTitleColor(.white, for: .normal)
+        btn.setTitle("내 버튼 ", for: .normal)
+        btn.titleLabel?.font = UIFont.boldSystemFont(ofSize: 40)
+        btn.layer.cornerRadius = 15
+        return btn
+    }
+    
+    
+    // NSLayoutConstraint 타입은 Auto Layout의 제약 조건을 나타내는 클래스로 blueView - Top Anchor의 constant를 변경하기 위해 사용 
+    var blueViewTopLayoutConstraint : NSLayoutConstraint? = nil
+    
+    
+    
+    
         override func viewDidLoad() {
             super.viewDidLoad()
+            
+            self.view.addSubview(redView)
+            self.view.addSubview(blueView)
+            
+            let myGreenButton = myButton(.green)
+            self.view.addSubview(myGreenButton)
+            
+            myGreenButton.translatesAutoresizingMaskIntoConstraints = false
+            
+            NSLayoutConstraint.activate([
+                myGreenButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+                myGreenButton.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
+            ])
+            
+            myGreenButton.addTarget(self, action: #selector(moveBlueViewDown), for: .touchUpInside)
+            
+            
+            
+            // 오토레이아웃 지정할 때 false 설정 필수
+            redView.translatesAutoresizingMaskIntoConstraints = false
+            blueView.translatesAutoresizingMaskIntoConstraints = false
+            
+            redView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 40).isActive = true
+            redView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -40).isActive = true
+            redView.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 40).isActive = true
+            redView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -40).isActive = true
+            
+            
+            
+            blueViewTopLayoutConstraint = blueView.topAnchor.constraint(equalTo: self.redView.topAnchor, constant: 40)
+            
+            
+            // blueView - AutoLayout
+            NSLayoutConstraint.activate([
+                blueView.widthAnchor.constraint(equalToConstant: 100),
+                blueView.heightAnchor.constraint(equalToConstant: 100),
+                blueView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
+                
+            ])
+            
+            blueViewTopLayoutConstraint?.isActive = true
+            
+            
+            
 
-            view.addSubview(redView)
+//
+//            // redView의 크기 지정
+//            redView.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.7).isActive = true
+//            redView.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.7).isActive = true
+//
+//            // redView의 위치 지정
+//            redView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
+//            redView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
+//
+            
 
-            redView.snp.makeConstraints { make in
-                make.centerX.equalToSuperview()
-                make.centerY.equalToSuperview()
-                make.width.equalTo(100)
-                make.height.equalTo(100)
-            }
+//            view.addSubview(redView)
+//
+//            redView.snp.makeConstraints { make in
+//                make.centerX.equalToSuperview()
+//                make.centerY.equalToSuperview()
+//                make.width.equalTo(100)
+//                make.height.equalTo(100)
+//            }
         }
+    
+    
+    
+    var offset = 0
    
-
+    @objc fileprivate func moveBlueViewDown(){
+        offset += 40
+        print("ViewController : moveBlueViewDown(), offset : \(offset)")
+        
+        blueViewTopLayoutConstraint?.constant = CGFloat(offset)
+        
+        
+    }
 }
+
+
 
 
  /*

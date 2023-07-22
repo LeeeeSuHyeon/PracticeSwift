@@ -23,6 +23,7 @@
 		CB0D2FDA2A641CF300B18C93 /* PickerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FD92A641CF300B18C93 /* PickerView.storyboard */; };
 		CB0D2FDC2A641CFB00B18C93 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */; };
 		CB0D2FDF2A693B2C00B18C93 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */; };
+		CB97FA342A6BC592004D4D52 /* SnapKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */; };
 		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
@@ -87,6 +88,7 @@
 		CB0D2FD92A641CF300B18C93 /* PickerView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickerView.storyboard; sourceTree = "<group>"; };
 		CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
+		CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SnapKit.storyboard; sourceTree = "<group>"; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */,
+				CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */,
 			);
 			path = SnapKit;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB97FA342A6BC592004D4D52 /* SnapKit.storyboard in Resources */,
 				CBF59E372A41A2AC00B12F82 /* LaunchScreen.storyboard in Resources */,
 				CB0D2FD02A613CB000B18C93 /* Async.storyboard in Resources */,
 				CB0D2FC12A5A8F8600B18C93 /* QuickHelp.storyboard in Resources */,
@@ -746,6 +750,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -775,6 +780,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
