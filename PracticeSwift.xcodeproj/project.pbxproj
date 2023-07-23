@@ -24,6 +24,7 @@
 		CB0D2FDC2A641CFB00B18C93 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */; };
 		CB0D2FDF2A693B2C00B18C93 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */; };
 		CB97FA342A6BC592004D4D52 /* SnapKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */; };
+		CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */; };
 		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
@@ -89,6 +90,7 @@
 		CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
 		CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SnapKit.storyboard; sourceTree = "<group>"; };
+		CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 			children = (
 				CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */,
 				CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */,
+				CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */,
 			);
 			path = SnapKit;
 			sourceTree = "<group>";
@@ -587,6 +590,7 @@
 				CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */,
 				CB0D2FC82A5BD5CB00B18C93 /* DependencyViewController.swift in Sources */,
 				CB0D2FD22A613CBA00B18C93 /* AsyncViewController.swift in Sources */,
+				CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */,
 				CBA63C3D2A50017E00DD771B /* AlamofireResponse.swift in Sources */,
 				CBA63C422A50217800DD771B /* AlertViewController.swift in Sources */,
 				CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */,
