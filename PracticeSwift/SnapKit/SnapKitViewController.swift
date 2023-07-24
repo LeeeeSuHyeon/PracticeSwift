@@ -26,6 +26,14 @@ class SnapKitViewController: UIViewController {
         }()
     
     
+    lazy var yellowView : UIView = { () -> UIView in
+        let view = UIView()
+        view.backgroundColor = .yellow
+        
+        return view
+    }()
+    
+    
     // 버튼 추가
     lazy var myButton = { (color : UIColor) -> UIButton in
         let btn = UIButton(type: .system)
@@ -54,6 +62,7 @@ class SnapKitViewController: UIViewController {
             
             self.view.addSubview(redView)
             self.view.addSubview(blueView)
+            self.view.addSubview(yellowView)
             
             let myGreenButton = myButton(.green)
             self.view.addSubview(myGreenButton)
@@ -104,6 +113,14 @@ class SnapKitViewController: UIViewController {
             }
             
             myGreenButton.addTarget(self, action: #selector(moveBlueViewDown), for: .touchUpInside)
+            
+            
+            yellowView.snp.makeConstraints { make in
+                make.width.height.equalTo(100)
+                make.centerX.centerY.equalToSuperview()
+                
+            }
+            
             
             
             
