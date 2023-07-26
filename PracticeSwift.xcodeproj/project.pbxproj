@@ -27,6 +27,7 @@
 		CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */; };
 		CB97FA3D2A6FD374004D4D52 /* HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3C2A6FD374004D4D52 /* HStack.swift */; };
 		CB97FA3F2A6FD384004D4D52 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3E2A6FD384004D4D52 /* VStack.swift */; };
+		CB97FA412A6FDA90004D4D52 /* ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA402A6FDA90004D4D52 /* ZStack.swift */; };
 		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
@@ -95,6 +96,7 @@
 		CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		CB97FA3C2A6FD374004D4D52 /* HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack.swift; sourceTree = "<group>"; };
 		CB97FA3E2A6FD384004D4D52 /* VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack.swift; sourceTree = "<group>"; };
+		CB97FA402A6FDA90004D4D52 /* ZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack.swift; sourceTree = "<group>"; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 			children = (
 				CB97FA3E2A6FD384004D4D52 /* VStack.swift */,
 				CB97FA3C2A6FD374004D4D52 /* HStack.swift */,
+				CB97FA402A6FDA90004D4D52 /* ZStack.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -599,6 +602,7 @@
 				CBA63C492A515F5200DD771B /* User.swift in Sources */,
 				CBF59E632A4C079A00B12F82 /* ScrollViewController.swift in Sources */,
 				CBF59E4D2A45554F00B12F82 /* OtherViewController.swift in Sources */,
+				CB97FA412A6FDA90004D4D52 /* ZStack.swift in Sources */,
 				CBA63C522A516BBA00DD771B /* MVC_UserProfileViewController.swift in Sources */,
 				CBF59E522A455E1800B12F82 /* MainViewController.swift in Sources */,
 				CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */,

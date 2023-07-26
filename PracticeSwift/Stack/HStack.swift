@@ -7,14 +7,26 @@
 
 import SwiftUI
 
-struct HStack: View {
+struct MyHStack: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Text("HStack")
+
+            Rectangle()
+                .foregroundColor(.yellow)
+                .frame(width: 100, height: 100)
+            
+            Rectangle()
+                .foregroundColor(.green)
+                .frame(width: 100, height: 100)
+            
+        }
+                
     }
 }
 
 struct HStack_Previews: PreviewProvider {
     static var previews: some View {
-        HStack()
+        MyHStack()
     }
 }
