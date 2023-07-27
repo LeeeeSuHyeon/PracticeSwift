@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MyHStack: View {
     var body: some View {
+        
         HStack{
             Text("HStack")
 
@@ -20,7 +21,23 @@ struct MyHStack: View {
                 .foregroundColor(.green)
                 .frame(width: 100, height: 100)
             
+            VStack{
+                Text("Stack in HStack")
+                    .font(.system(size: 10))
+                
+                Rectangle()
+                    .foregroundColor(.red)
+                    .frame(width: 50, height: 50)
+                
+                Rectangle()
+                    .foregroundColor(.blue)
+                    .frame(width: 50, height: 50)
+            }
+            
         }
+        .frame(height: 300)
+        .background(Color(.orange))
+        
                 
     }
 }
