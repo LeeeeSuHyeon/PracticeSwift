@@ -13,6 +13,8 @@ target 'PracticeSwift' do
 
   pod 'SnapKit'
 
+  pod 'YPImagePicker'
+
 end
 
 post_install do |installer|

@@ -1,28 +1,40 @@
 PODS:
   - Alamofire (5.1.0)
+  - PryntTrimmerView (4.0.2)
   - SnapKit (5.6.0)
   - Socket.IO-Client-Swift (16.0.1):
     - Starscream (~> 4.0)
   - Starscream (4.0.4)
+  - SteviaLayout (4.7.3)
+  - YPImagePicker (5.2.1):
+    - PryntTrimmerView (= 4.0.2)
+    - SteviaLayout (= 4.7.3)
 
 DEPENDENCIES:
   - Alamofire (= 5.1)
   - SnapKit
   - Socket.IO-Client-Swift
+  - YPImagePicker
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - PryntTrimmerView
     - SnapKit
     - Socket.IO-Client-Swift
     - Starscream
+    - SteviaLayout
+    - YPImagePicker
 
 SPEC CHECKSUMS:
   Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  YPImagePicker: f36043210c10b0783034eb1947d6e06e31c461e4
 
-PODFILE CHECKSUM: cade88bae7c2a3395729df3e0f0aa87571daf758
+PODFILE CHECKSUM: 49f477bd9092cf7b4bd62fb7dbb646c6105cbf0d
 
 COCOAPODS: 1.11.3

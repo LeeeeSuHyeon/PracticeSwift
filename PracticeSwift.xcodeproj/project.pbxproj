@@ -27,7 +27,8 @@
 		CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */; };
 		CB97FA3D2A6FD374004D4D52 /* HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3C2A6FD374004D4D52 /* HStack.swift */; };
 		CB97FA3F2A6FD384004D4D52 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3E2A6FD384004D4D52 /* VStack.swift */; };
-		CB97FA412A6FDA90004D4D52 /* ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA402A6FDA90004D4D52 /* ZStack.swift */; };
+		CB97FA442A73BDF0004D4D52 /* Picture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA432A73BDF0004D4D52 /* Picture.storyboard */; };
+		CB97FA462A73BDFA004D4D52 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA452A73BDFA004D4D52 /* PictureViewController.swift */; };
 		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
@@ -96,7 +97,8 @@
 		CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		CB97FA3C2A6FD374004D4D52 /* HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack.swift; sourceTree = "<group>"; };
 		CB97FA3E2A6FD384004D4D52 /* VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack.swift; sourceTree = "<group>"; };
-		CB97FA402A6FDA90004D4D52 /* ZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack.swift; sourceTree = "<group>"; };
+		CB97FA432A73BDF0004D4D52 /* Picture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Picture.storyboard; sourceTree = "<group>"; };
+		CB97FA452A73BDFA004D4D52 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -258,9 +260,17 @@
 			children = (
 				CB97FA3E2A6FD384004D4D52 /* VStack.swift */,
 				CB97FA3C2A6FD374004D4D52 /* HStack.swift */,
-				CB97FA402A6FDA90004D4D52 /* ZStack.swift */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		CB97FA422A73BDDE004D4D52 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				CB97FA432A73BDF0004D4D52 /* Picture.storyboard */,
+				CB97FA452A73BDFA004D4D52 /* PictureViewController.swift */,
+			);
+			path = Picture;
 			sourceTree = "<group>";
 		};
 		CBA63C372A4FFFB800DD771B /* Alamofire */ = {
@@ -338,6 +348,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB97FA422A73BDDE004D4D52 /* Picture */,
 				CB97FA392A6FD351004D4D52 /* Stack */,
 				CB0D2FDD2A693B1600B18C93 /* SnapKit */,
 				CB0D2FD82A641CE500B18C93 /* PickerView */,
@@ -525,6 +536,7 @@
 				CBF59E322A41A2AB00B12F82 /* Main.storyboard in Resources */,
 				CBF59E582A47364F00B12F82 /* TableView.storyboard in Resources */,
 				CB0D2FDA2A641CF300B18C93 /* PickerView.storyboard in Resources */,
+				CB97FA442A73BDF0004D4D52 /* Picture.storyboard in Resources */,
 				CB0D2FC62A5BD5BE00B18C93 /* Dependency.storyboard in Resources */,
 				CBF59E612A4C078900B12F82 /* ScrollView.storyboard in Resources */,
 			);
@@ -588,6 +600,7 @@
 				CB0D2FDC2A641CFB00B18C93 /* PickerViewController.swift in Sources */,
 				CB0D2FC32A5A8F9100B18C93 /* QuickHelpViewController.swift in Sources */,
 				CBA63C472A515F4500DD771B /* UserProfileViewController.swift in Sources */,
+				CB97FA462A73BDFA004D4D52 /* PictureViewController.swift in Sources */,
 				CB0D2FBA2A5948A000B18C93 /* BuilderPatternViewController.swift in Sources */,
 				CBF59E432A42F70900B12F82 /* MyMessageCell.swift in Sources */,
 				CBA63C5A2A55A85400DD771B /* MVP_User.swift in Sources */,
@@ -602,7 +615,6 @@
 				CBA63C492A515F5200DD771B /* User.swift in Sources */,
 				CBF59E632A4C079A00B12F82 /* ScrollViewController.swift in Sources */,
 				CBF59E4D2A45554F00B12F82 /* OtherViewController.swift in Sources */,
-				CB97FA412A6FDA90004D4D52 /* ZStack.swift in Sources */,
 				CBA63C522A516BBA00DD771B /* MVC_UserProfileViewController.swift in Sources */,
 				CBF59E522A455E1800B12F82 /* MainViewController.swift in Sources */,
 				CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */,
