@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Picture View Controller-->
+        <!--Use Controller Picture View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="PictureViewController" customModule="PracticeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="UseControllerPictureViewController" customModule="PracticeSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,6 +42,9 @@
                                     </attributedString>
                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="changeProfileBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="TP5-j1-RbD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -55,7 +58,9 @@
                     </view>
                     <connections>
                         <outlet property="button" destination="7Ku-GI-tZe" id="46Y-34-YWi"/>
+                        <outlet property="changeProfileBtn" destination="7Ku-GI-tZe" id="Qd0-UR-B5f"/>
                         <outlet property="imageView" destination="nXX-I6-ZXV" id="wxU-WC-7x3"/>
+                        <outlet property="profileImageView" destination="nXX-I6-ZXV" id="ZgZ-wr-hI5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -29,6 +29,7 @@
 		CB97FA3F2A6FD384004D4D52 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3E2A6FD384004D4D52 /* VStack.swift */; };
 		CB97FA442A73BDF0004D4D52 /* Picture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA432A73BDF0004D4D52 /* Picture.storyboard */; };
 		CB97FA462A73BDFA004D4D52 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA452A73BDFA004D4D52 /* PictureViewController.swift */; };
+		CB97FA482A762B19004D4D52 /* UseControllerPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA472A762B19004D4D52 /* UseControllerPictureViewController.swift */; };
 		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
@@ -99,6 +100,7 @@
 		CB97FA3E2A6FD384004D4D52 /* VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack.swift; sourceTree = "<group>"; };
 		CB97FA432A73BDF0004D4D52 /* Picture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Picture.storyboard; sourceTree = "<group>"; };
 		CB97FA452A73BDFA004D4D52 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		CB97FA472A762B19004D4D52 /* UseControllerPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseControllerPictureViewController.swift; sourceTree = "<group>"; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 			children = (
 				CB97FA432A73BDF0004D4D52 /* Picture.storyboard */,
 				CB97FA452A73BDFA004D4D52 /* PictureViewController.swift */,
+				CB97FA472A762B19004D4D52 /* UseControllerPictureViewController.swift */,
 			);
 			path = Picture;
 			sourceTree = "<group>";
@@ -620,6 +623,7 @@
 				CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */,
 				CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */,
 				CB0D2FC82A5BD5CB00B18C93 /* DependencyViewController.swift in Sources */,
+				CB97FA482A762B19004D4D52 /* UseControllerPictureViewController.swift in Sources */,
 				CB0D2FD22A613CBA00B18C93 /* AsyncViewController.swift in Sources */,
 				CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */,
 				CBA63C3D2A50017E00DD771B /* AlamofireResponse.swift in Sources */,
