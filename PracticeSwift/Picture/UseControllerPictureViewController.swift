@@ -15,10 +15,9 @@ class UseControllerPictureViewController: UIViewController {
     
     // 버튼 액션 
     @IBAction func changeProfileBtn(_ sender: UIButton) {
-        let imagePicker = UIImagePickerController()
-         imagePicker.delegate = self
-         imagePicker.mediaTypes = ["public.image"]
-         present(imagePicker, animated: true, completion: nil)
+        btnAction()
+        
+
     }
     
     // 이미지 선택 완료 시 호출되는 메서드
@@ -27,6 +26,10 @@ class UseControllerPictureViewController: UIViewController {
             // 이미지뷰에 선택한 이미지 설정
             imageView.image = selectedImage
         }
+        
+        // 이미지 피커 닫기
+        picker.dismiss(animated: true, completion: nil)
+
 
     
     override func viewDidLoad() {
@@ -41,4 +44,10 @@ class UseControllerPictureViewController: UIViewController {
 
 extension UseControllerPictureViewController : UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
+    fun btnAction(){
+        let imagePicker = UIImagePickerController()
+        imagePicker.delegate = self
+        imagePicker.mediaTypes = ["public.image"]
+        present(imagePicker, animated: true, completion: nil)
+    }
 }
