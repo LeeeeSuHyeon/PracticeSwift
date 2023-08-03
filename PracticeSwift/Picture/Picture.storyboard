@@ -43,7 +43,7 @@
                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="changeProfileBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="TP5-j1-RbD"/>
+                                    <action selector="changeProfileBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="6eV-I7-eo1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -57,9 +57,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="button" destination="7Ku-GI-tZe" id="46Y-34-YWi"/>
-                        <outlet property="changeProfileBtn" destination="7Ku-GI-tZe" id="Qd0-UR-B5f"/>
-                        <outlet property="imageView" destination="nXX-I6-ZXV" id="wxU-WC-7x3"/>
+                        <outlet property="changeProfileBtn" destination="7Ku-GI-tZe" id="lvR-vP-r94"/>
                         <outlet property="profileImageView" destination="nXX-I6-ZXV" id="ZgZ-wr-hI5"/>
                     </connections>
                 </viewController>
