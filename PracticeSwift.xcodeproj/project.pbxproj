@@ -101,6 +101,7 @@
 		CB97FA432A73BDF0004D4D52 /* Picture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Picture.storyboard; sourceTree = "<group>"; };
 		CB97FA452A73BDFA004D4D52 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		CB97FA472A762B19004D4D52 /* UseControllerPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseControllerPictureViewController.swift; sourceTree = "<group>"; };
+		CB97FA4A2A7E1C04004D4D52 /* Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -276,6 +277,14 @@
 			path = Picture;
 			sourceTree = "<group>";
 		};
+		CB97FA492A7E1BF4004D4D52 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CB97FA4A2A7E1C04004D4D52 /* Protocol.playground */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		CBA63C372A4FFFB800DD771B /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,6 +360,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB97FA492A7E1BF4004D4D52 /* Protocol */,
 				CB97FA422A73BDDE004D4D52 /* Picture */,
 				CB97FA392A6FD351004D4D52 /* Stack */,
 				CB0D2FDD2A693B1600B18C93 /* SnapKit */,
