@@ -10,6 +10,37 @@ protocol Naming {
     func getName() -> String
 }
 
+// 프로토콜 확장 (기본 구현)
+extension Naming{
+    func getName() -> String {
+        return "제 이름은 \(self.name)입니다."
+    }
+}
+
+//struct Person : Naming{
+//    var name: String
+//}
+//var person = Person(name: "홍길동")
+//print(person.getName()) // 출력 : 제 이름은 홍길동 입니다.
+
+
+// 프로토콜 확장 (새로운 기능 추가)
+extension Naming{
+    func address() -> String{
+        return "저는 경기도에 살고 있습니다."
+    }
+}
+
+struct Person : Naming{
+    var name: String
+}
+var person = Person(name: "홍길동")
+print(person.address())     // 저는 경기도에 살고 있습니다.
+
+
+
+
+
 protocol Aging {
     var age : Int { get set}
 }
@@ -32,7 +63,7 @@ class MyBestFriend : UserInformation{
 
 
 
-
+// 프로토콜 상속
 struct Friend : Naming {
     var name: String
     
