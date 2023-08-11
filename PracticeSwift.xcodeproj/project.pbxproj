@@ -31,6 +31,7 @@
 		CB97FA462A73BDFA004D4D52 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA452A73BDFA004D4D52 /* PictureViewController.swift */; };
 		CB97FA482A762B19004D4D52 /* UseControllerPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA472A762B19004D4D52 /* UseControllerPictureViewController.swift */; };
 		CB97FA4D2A8514D3004D4D52 /* KeyboardUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA4C2A8514D3004D4D52 /* KeyboardUpViewController.swift */; };
+		CB97FA4F2A86137C004D4D52 /* KeyboardUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA4E2A86137C004D4D52 /* KeyboardUp.storyboard */; };
 		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
@@ -104,6 +105,7 @@
 		CB97FA472A762B19004D4D52 /* UseControllerPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseControllerPictureViewController.swift; sourceTree = "<group>"; };
 		CB97FA4A2A7E1C04004D4D52 /* Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CB97FA4C2A8514D3004D4D52 /* KeyboardUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardUpViewController.swift; sourceTree = "<group>"; };
+		CB97FA4E2A86137C004D4D52 /* KeyboardUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KeyboardUp.storyboard; sourceTree = "<group>"; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				CB97FA4C2A8514D3004D4D52 /* KeyboardUpViewController.swift */,
+				CB97FA4E2A86137C004D4D52 /* KeyboardUp.storyboard */,
 			);
 			path = KeyboardUp;
 			sourceTree = "<group>";
@@ -561,6 +564,7 @@
 				CBF59E582A47364F00B12F82 /* TableView.storyboard in Resources */,
 				CB0D2FDA2A641CF300B18C93 /* PickerView.storyboard in Resources */,
 				CB97FA442A73BDF0004D4D52 /* Picture.storyboard in Resources */,
+				CB97FA4F2A86137C004D4D52 /* KeyboardUp.storyboard in Resources */,
 				CB0D2FC62A5BD5BE00B18C93 /* Dependency.storyboard in Resources */,
 				CBF59E612A4C078900B12F82 /* ScrollView.storyboard in Resources */,
 			);
@@ -806,6 +810,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticeSwift/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "마이크 접근 권한을 허용!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "앨범 접근 권한을 허용!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -836,6 +842,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticeSwift/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "마이크 접근 권한을 허용!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "앨범 접근 권한을 허용!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

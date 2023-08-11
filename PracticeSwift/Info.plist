@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription </key>
+	<string>카메라 접근 권한을 허용!</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -18,18 +20,10 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Picture</string>
+					<string>KeyboardUp</string>
 				</dict>
 			</array>
 		</dict>
 	</dict>
-    
-    <key>NSCameraUsageDescription </key>
-    <string>카메라 접근 권한을 허용!</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>앨범 접근 권한을 허용!</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>마이크 접근 권한을 허용!</string>
-    
 </dict>
 </plist>
