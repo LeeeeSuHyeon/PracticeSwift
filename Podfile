@@ -17,6 +17,8 @@ target 'PracticeSwift' do
 
   pod 'IQKeyboardManagerSwift'
 
+  pod 'Then'
+
 end
 
 post_install do |installer|
