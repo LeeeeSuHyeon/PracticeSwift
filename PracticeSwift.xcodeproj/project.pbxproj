@@ -33,6 +33,8 @@
 		CB97FA4D2A8514D3004D4D52 /* KeyboardUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA4C2A8514D3004D4D52 /* KeyboardUpViewController.swift */; };
 		CB97FA4F2A86137C004D4D52 /* KeyboardUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA4E2A86137C004D4D52 /* KeyboardUp.storyboard */; };
 		CB97FA512A878C1C004D4D52 /* KeyboardUpSnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA502A878C1C004D4D52 /* KeyboardUpSnapKitViewController.swift */; };
+		CB97FA542A8A245E004D4D52 /* IQKeyboardManagerSwift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA532A8A245E004D4D52 /* IQKeyboardManagerSwift.storyboard */; };
+		CB97FA562A8A2468004D4D52 /* IQKeyboardManagerSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA552A8A2468004D4D52 /* IQKeyboardManagerSwiftViewController.swift */; };
 		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
@@ -108,6 +110,8 @@
 		CB97FA4C2A8514D3004D4D52 /* KeyboardUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardUpViewController.swift; sourceTree = "<group>"; };
 		CB97FA4E2A86137C004D4D52 /* KeyboardUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KeyboardUp.storyboard; sourceTree = "<group>"; };
 		CB97FA502A878C1C004D4D52 /* KeyboardUpSnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardUpSnapKitViewController.swift; sourceTree = "<group>"; };
+		CB97FA532A8A245E004D4D52 /* IQKeyboardManagerSwift.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IQKeyboardManagerSwift.storyboard; sourceTree = "<group>"; };
+		CB97FA552A8A2468004D4D52 /* IQKeyboardManagerSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerSwiftViewController.swift; sourceTree = "<group>"; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -301,6 +305,15 @@
 			path = KeyboardUp;
 			sourceTree = "<group>";
 		};
+		CB97FA522A8A2446004D4D52 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CB97FA532A8A245E004D4D52 /* IQKeyboardManagerSwift.storyboard */,
+				CB97FA552A8A2468004D4D52 /* IQKeyboardManagerSwiftViewController.swift */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
 		CBA63C372A4FFFB800DD771B /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -376,6 +389,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB97FA522A8A2446004D4D52 /* IQKeyboardManagerSwift */,
 				CB97FA4B2A8514A8004D4D52 /* KeyboardUp */,
 				CB97FA492A7E1BF4004D4D52 /* Protocol */,
 				CB97FA422A73BDDE004D4D52 /* Picture */,
@@ -564,6 +578,7 @@
 				CB0D2FBE2A594A2C00B18C93 /* BuilderPattern.storyboard in Resources */,
 				CBF59E342A41A2AC00B12F82 /* Assets.xcassets in Resources */,
 				CBF59E322A41A2AB00B12F82 /* Main.storyboard in Resources */,
+				CB97FA542A8A245E004D4D52 /* IQKeyboardManagerSwift.storyboard in Resources */,
 				CBF59E582A47364F00B12F82 /* TableView.storyboard in Resources */,
 				CB0D2FDA2A641CF300B18C93 /* PickerView.storyboard in Resources */,
 				CB97FA442A73BDF0004D4D52 /* Picture.storyboard in Resources */,
@@ -657,6 +672,7 @@
 				CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */,
 				CBA63C3D2A50017E00DD771B /* AlamofireResponse.swift in Sources */,
 				CBA63C422A50217800DD771B /* AlertViewController.swift in Sources */,
+				CB97FA562A8A2468004D4D52 /* IQKeyboardManagerSwiftViewController.swift in Sources */,
 				CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */,
 				CBF59E6F2A4EABD800B12F82 /* ApiViewController.swift in Sources */,
 				CB97FA512A878C1C004D4D52 /* KeyboardUpSnapKitViewController.swift in Sources */,

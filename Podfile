@@ -15,6 +15,8 @@ target 'PracticeSwift' do
 
   pod 'YPImagePicker'
 
+  pod 'IQKeyboardManagerSwift'
+
 end
 
 post_install do |installer|
