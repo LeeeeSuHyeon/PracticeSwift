@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Dropdown View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="DropdownViewController" customModule="PracticeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocN-Ku-rFr">
+                                <rect key="frame" x="30" y="183" width="333" height="60"/>
+                                <color key="backgroundColor" red="0.78039217000000005" green="0.82352948189999997" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Kg4-xu-02A"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DropDown Test Button"/>
+                                <connections>
+                                    <action selector="dropDownBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="MrG-7c-196"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="선택한 아이템" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Az-5c-Nya">
+                                <rect key="frame" x="150" y="82" width="93" height="21"/>
+                                <color key="backgroundColor" red="0.9529411793" green="0.84313726430000002" blue="0.52549022440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="선택한 인덱스" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbO-zI-SPp">
+                                <rect key="frame" x="150.33333333333334" y="132" width="92.666666666666657" height="21"/>
+                                <color key="backgroundColor" red="0.9529411793" green="0.84313726430000002" blue="0.52549022440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cbO-zI-SPp" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="8Ex-26-lva"/>
+                            <constraint firstItem="2Az-5c-Nya" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="8we-P2-8rO"/>
+                            <constraint firstItem="ocN-Ku-rFr" firstAttribute="top" secondItem="2Az-5c-Nya" secondAttribute="bottom" constant="80" id="WfQ-oo-F23"/>
+                            <constraint firstItem="ocN-Ku-rFr" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" multiplier="0.5" id="g6j-NQ-Vzd"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ocN-Ku-rFr" secondAttribute="trailing" constant="30" id="qAV-G4-KuS"/>
+                            <constraint firstItem="ocN-Ku-rFr" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="sZg-1i-WkI"/>
+                            <constraint firstItem="2Az-5c-Nya" firstAttribute="bottom" secondItem="cbO-zI-SPp" secondAttribute="bottom" constant="-50" id="yFy-OP-0Yl"/>
+                            <constraint firstItem="ocN-Ku-rFr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="zOQ-JM-jds"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dropDownBtn" destination="ocN-Ku-rFr" id="Wfr-LF-I5v"/>
+                        <outlet property="indexLabel" destination="cbO-zI-SPp" id="gne-lZ-n0p"/>
+                        <outlet property="label" destination="2Az-5c-Nya" id="uPT-k5-Hre"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

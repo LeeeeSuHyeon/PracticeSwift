@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.1.0)
+  - DropDown (2.3.13)
   - IQKeyboardManagerSwift (6.5.12)
   - PryntTrimmerView (4.0.2)
   - SnapKit (5.6.0)
@@ -14,6 +15,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (= 5.1)
+  - DropDown
   - IQKeyboardManagerSwift
   - SnapKit
   - Socket.IO-Client-Swift
@@ -23,6 +25,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - DropDown
     - IQKeyboardManagerSwift
     - PryntTrimmerView
     - SnapKit
@@ -34,6 +37,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
   PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
@@ -43,6 +47,6 @@ SPEC CHECKSUMS:
   Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
   YPImagePicker: f36043210c10b0783034eb1947d6e06e31c461e4
 
-PODFILE CHECKSUM: 1b4230f6b1a2962af1741cd31576ab1d04b56f47
+PODFILE CHECKSUM: d03e9b54d9a776ef50b05db13199aefc19cc4552
 
 COCOAPODS: 1.11.3
