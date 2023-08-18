@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct Tutorial: View {
+    
+    // @State : 값의 변화를 감지하고 뷰에 적용
+    @State private var isActivated : Bool = false
+    
     var body: some View {
+                
         
         VStack{
             
@@ -17,6 +22,23 @@ struct Tutorial: View {
             newView()
             
         } // VStack
+        
+        // isAcitved가 true이면 50, false면 10으로 패딩 지정
+        .padding(isActivated ? 50 : 10)
+        
+        // isAcitved가 true이면 .yellow, false면 .green
+        .background(isActivated ? .yellow : .green)
+                
+        // 탭 제스처 추가
+        .onTapGesture {
+            
+            // 애니메이션 추가
+            withAnimation{
+                
+                // toggle() true이면 false로 false면 true로 변경
+                self.isActivated.toggle()
+            }
+        }
     }
 }
 
