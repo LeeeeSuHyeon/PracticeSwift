@@ -123,6 +123,7 @@
 		CB97FA5F2A8B5FEF004D4D52 /* DropdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownViewController.swift; sourceTree = "<group>"; };
 		CB97FA622A8CBF06004D4D52 /* UserDefaults.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UserDefaults.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CB97FA642A8E042D004D4D52 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		CB97FA742A935A62004D4D52 /* DispatchQueue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DispatchQueue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -359,6 +360,14 @@
 			path = SwiftUI;
 			sourceTree = "<group>";
 		};
+		CB97FA732A935A46004D4D52 /* DispatchQueue */ = {
+			isa = PBXGroup;
+			children = (
+				CB97FA742A935A62004D4D52 /* DispatchQueue.playground */,
+			);
+			path = DispatchQueue;
+			sourceTree = "<group>";
+		};
 		CBA63C372A4FFFB800DD771B /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,6 +443,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB97FA732A935A46004D4D52 /* DispatchQueue */,
 				CB97FA632A8E01CC004D4D52 /* SwiftUI */,
 				CB97FA612A8CBEE6004D4D52 /* UserDefaults */,
 				CB97FA5C2A8B5FCD004D4D52 /* Dropdown */,
