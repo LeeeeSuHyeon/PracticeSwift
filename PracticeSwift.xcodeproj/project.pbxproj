@@ -128,6 +128,7 @@
 		CB97FA762A94E1E6004D4D52 /* Mutating.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Mutating.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CB97FA782A961CE6004D4D52 /* ClassStructEnum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClassStructEnum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CB97FA792A961F28004D4D52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB97FA7C2A97446D004D4D52 /* Extension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extension.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
@@ -389,6 +390,14 @@
 			path = ClassStructEnum;
 			sourceTree = "<group>";
 		};
+		CB97FA7B2A974453004D4D52 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CB97FA7C2A97446D004D4D52 /* Extension.playground */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		CBA63C372A4FFFB800DD771B /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -464,6 +473,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB97FA7B2A974453004D4D52 /* Extension */,
 				CB97FA772A961CD3004D4D52 /* ClassStructEnum */,
 				CB97FA752A94E1D2004D4D52 /* Mutating */,
 				CB97FA732A935A46004D4D52 /* DispatchQueue */,
