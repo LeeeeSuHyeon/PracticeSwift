@@ -18,9 +18,9 @@ struct Tutorial: View {
             VStack{
                 VStack{
                     
-                    newView()
-                    newView()
-                    newView()
+                    newView(isActivated: $isActivated)
+                    newView(isActivated: $isActivated)
+                    newView(isActivated: $isActivated)
                     
                 } // VStack
                 
@@ -42,7 +42,7 @@ struct Tutorial: View {
                 }
                 
                 // destination : 이동하고자 하는 뷰
-                NavigationLink(destination: myTextView()){
+                NavigationLink(destination: myTextView(isActivated: $isActivated)){
                     Text("네비게이션")
                         .fontWeight(.heavy)
                         .font(.system(size:30))
@@ -59,6 +59,16 @@ struct Tutorial: View {
 }
 
 struct newView : View {
+    
+    // 데이터 연동
+    @Binding
+    var isActivated: Bool
+    
+    // 생성자
+    init(isActivated: Binding<Bool> = .constant(false)){
+        _isActivated = isActivated
+    }
+    
     var body: some View{
         HStack{
             Text("1!")
@@ -76,14 +86,24 @@ struct newView : View {
                 .bold()
                 .font(.system(size: 40))
         } // HStack
-        .background(.red)   // HStack의 background color 추가
-        .padding(10)        // HStack의 패딩 추가
-    }
+        .background(self.isActivated  ? .green : .red)   // isActivated가 true이면 green, false이면 red
+        .padding(self.isActivated ? 30 : 10)        //isActivated가 true이면 30, false이면 10
+    } // View
 }
 
 
-// 이동할 뷰 
+// 이동할 뷰
 struct myTextView : View{
+    
+    // 데이터 연동
+    @Binding
+    var isActivated: Bool
+    
+    // 생성자
+    init(isActivated: Binding<Bool> = .constant(false)){
+        _isActivated = isActivated
+    }
+    
     
     // 배경색 배열 인덱스
     @State var index = 0
@@ -94,12 +114,26 @@ struct myTextView : View{
     
     var body: some View{
         VStack{
+            
+            // 공간 추가
+            Spacer()
+            
             Text("배경 아이템 인덱스 \(self.index)")
                 .font(.system(size: 30))
                 .fontWeight(.bold)
             
                 // 배경을 전체로 설정
-                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: 100)
+            
+            Text("isActivated : \(String(self.isActivated))")
+                .font(.system(size: 30))
+                .fontWeight(.bold)
+                .foregroundColor(self.isActivated ? .yellow : .gray)
+                .background(.black)
+            
+            Spacer()
+            
+            
         }
         .background(self.backgroundColorArray[self.index])
         
