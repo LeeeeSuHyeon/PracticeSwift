@@ -105,6 +105,7 @@
 		CB0D2FD92A641CF300B18C93 /* PickerView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickerView.storyboard; sourceTree = "<group>"; };
 		CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
+		CB6518642C47B1C300AAE412 /* Combine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combine.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SnapKit.storyboard; sourceTree = "<group>"; };
 		CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		CB97FA3C2A6FD374004D4D52 /* HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack.swift; sourceTree = "<group>"; };
@@ -284,6 +285,14 @@
 				CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */,
 			);
 			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		CB6518632C47B1B100AAE412 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				CB6518642C47B1C300AAE412 /* Combine.playground */,
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		CB97FA392A6FD351004D4D52 /* Stack */ = {
@@ -482,6 +491,7 @@
 		CBF59E292A41A2AB00B12F82 /* PracticeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB6518632C47B1B100AAE412 /* Combine */,
 				CB97FA7D2A9C9411004D4D52 /* Dictionary */,
 				CB97FA7B2A974453004D4D52 /* Extension */,
 				CB97FA772A961CD3004D4D52 /* ClassStructEnum */,
