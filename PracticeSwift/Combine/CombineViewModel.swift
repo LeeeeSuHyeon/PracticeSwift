@@ -11,4 +11,20 @@ import Combine
 class CombineViewModel {
     @Published var password = ""
     @Published var checkPassword = ""
+    
+    lazy var isMatchPasswrod : AnyPublisher<Bool, Never> = Publishers
+        .CombineLatest($password, $checkPassword)
+        .map({ (password : String, checkPassword : String) in
+            if password == "" || checkPassword == "" {
+                return false
+            }
+            else if password == checkPassword {
+                return true
+            }
+            else {
+                return false
+            }
+        })
+        .print()
+        .eraseToAnyPublisher()
 }

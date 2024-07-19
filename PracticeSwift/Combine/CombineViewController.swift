@@ -21,12 +21,25 @@ class CombineViewController : ViewController {
         
         viewModel = CombineViewModel()
         
+        
+        // 뷰모델에서 뷰컨트롤러의 텍스트 필드를 구독
         txtPassword
             .myPublisher
-            .print()
             .receive(on: DispatchQueue.main)           // 스레드 - 메인에서 받겠다
             .assign(to: \.password, on: viewModel)     // 구독
             .store(in: &mySubscription)                 // 메모리 관리
+        
+        txtCheckPassword
+            .myPublisher
+            .receive(on: DispatchQueue.main)           // 스레드 - 메인에서 받겠다
+            .assign(to: \.checkPassword, on: viewModel)     // 구독
+            .store(in: &mySubscription)                 // 메모리 관리
+        
+        // 뷰컨트롤러에서 뷰모델의 프로퍼티를 구독
+        viewModel.isMatchPasswrod
+            .receive(on: RunLoop.main)
+            .assign(to: \.isValid, on: btn)
+            .store(in: &mySubscription)
     }
 }
 
@@ -37,5 +50,19 @@ extension UITextField {
             .map{$0.text ?? ""}     // TextField의 text만 가져옴
             .print()
             .eraseToAnyPublisher()  // 모든 Publisher를 AnyPublisher로 변환
+    }
+}
+
+extension UIButton {
+    var isValid : Bool {
+        get {
+            backgroundColor == .yellow
+        }
+        set {
+            backgroundColor = newValue ? .yellow : .lightGray
+            isEnabled = newValue
+            setTitleColor(newValue ? .blue : .white, for: .normal)
+            
+        }
     }
 }
