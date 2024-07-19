@@ -34,53 +34,6 @@
             endingLineNumber = "33"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "71C55069-457A-4DD8-A13E-6A0C67D37073 - 9979d59b339fb76f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;Any&gt;, SocketIO.SocketAckEmitter) -&gt; () in PracticeSwift.ChatViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "PracticeSwift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/suhyeon/Swift/PracticeSwift/PracticeSwift/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "480">
-               </Location>
-               <Location
-                  uuid = "71C55069-457A-4DD8-A13E-6A0C67D37073 - 9979d59b339fb70a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;Any&gt;, SocketIO.SocketAckEmitter) -&gt; () in PracticeSwift.ChatViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "PracticeSwift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/suhyeon/Swift/PracticeSwift/PracticeSwift/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "68">
-               </Location>
-               <Location
-                  uuid = "71C55069-457A-4DD8-A13E-6A0C67D37073 - 9979d59b339fb70a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;Any&gt;, SocketIO.SocketAckEmitter) -&gt; () in PracticeSwift.ChatViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "PracticeSwift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/suhyeon/Swift/PracticeSwift/PracticeSwift/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "320">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

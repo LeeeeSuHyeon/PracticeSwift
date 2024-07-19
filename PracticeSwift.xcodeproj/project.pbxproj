@@ -8,56 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		31B8F07522BD044FC6F0C0CF /* Pods_PracticeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1947A08ADD13AE46B968E /* Pods_PracticeSwift.framework */; };
-		CB0D2FB52A593F5500B18C93 /* Singleton.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FB42A593F5500B18C93 /* Singleton.storyboard */; };
 		CB0D2FB72A593F6000B18C93 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FB62A593F6000B18C93 /* SingletonViewController.swift */; };
 		CB0D2FBA2A5948A000B18C93 /* BuilderPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FB92A5948A000B18C93 /* BuilderPatternViewController.swift */; };
-		CB0D2FBE2A594A2C00B18C93 /* BuilderPattern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FBD2A594A2C00B18C93 /* BuilderPattern.storyboard */; };
-		CB0D2FC12A5A8F8600B18C93 /* QuickHelp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FC02A5A8F8600B18C93 /* QuickHelp.storyboard */; };
 		CB0D2FC32A5A8F9100B18C93 /* QuickHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FC22A5A8F9100B18C93 /* QuickHelpViewController.swift */; };
-		CB0D2FC62A5BD5BE00B18C93 /* Dependency.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FC52A5BD5BE00B18C93 /* Dependency.storyboard */; };
 		CB0D2FC82A5BD5CB00B18C93 /* DependencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FC72A5BD5CB00B18C93 /* DependencyViewController.swift */; };
-		CB0D2FD02A613CB000B18C93 /* Async.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FCF2A613CB000B18C93 /* Async.storyboard */; };
 		CB0D2FD22A613CBA00B18C93 /* AsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FD12A613CBA00B18C93 /* AsyncViewController.swift */; };
-		CB0D2FD52A6277C600B18C93 /* CompletionHandler.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FD42A6277C600B18C93 /* CompletionHandler.storyboard */; };
 		CB0D2FD72A6277D100B18C93 /* CompletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FD62A6277D100B18C93 /* CompletionViewController.swift */; };
-		CB0D2FDA2A641CF300B18C93 /* PickerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FD92A641CF300B18C93 /* PickerView.storyboard */; };
 		CB0D2FDC2A641CFB00B18C93 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */; };
 		CB0D2FDF2A693B2C00B18C93 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */; };
-		CB6518662C4AA74400AAE412 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6518652C4AA74400AAE412 /* Storyboard.storyboard */; };
 		CB6518682C4AA75400AAE412 /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6518672C4AA75400AAE412 /* CombineViewController.swift */; };
-		CB97FA342A6BC592004D4D52 /* SnapKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */; };
+		CB65186A2C4AA84700AAE412 /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6518692C4AA84700AAE412 /* CombineViewModel.swift */; };
+		CB65186B2C4AB32500AAE412 /* CombineStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6518652C4AA74400AAE412 /* CombineStoryboard.storyboard */; };
+		CB65186C2C4AB34400AAE412 /* CombineViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = CB6518672C4AA75400AAE412 /* CombineViewController.swift */; };
+		CB65186D2C4AB34400AAE412 /* CombineViewModel.swift in Resources */ = {isa = PBXBuildFile; fileRef = CB6518692C4AA84700AAE412 /* CombineViewModel.swift */; };
 		CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */; };
 		CB97FA3D2A6FD374004D4D52 /* HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3C2A6FD374004D4D52 /* HStack.swift */; };
 		CB97FA3F2A6FD384004D4D52 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3E2A6FD384004D4D52 /* VStack.swift */; };
-		CB97FA442A73BDF0004D4D52 /* Picture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA432A73BDF0004D4D52 /* Picture.storyboard */; };
 		CB97FA462A73BDFA004D4D52 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA452A73BDFA004D4D52 /* PictureViewController.swift */; };
 		CB97FA482A762B19004D4D52 /* UseControllerPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA472A762B19004D4D52 /* UseControllerPictureViewController.swift */; };
 		CB97FA4D2A8514D3004D4D52 /* KeyboardUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA4C2A8514D3004D4D52 /* KeyboardUpViewController.swift */; };
-		CB97FA4F2A86137C004D4D52 /* KeyboardUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA4E2A86137C004D4D52 /* KeyboardUp.storyboard */; };
 		CB97FA512A878C1C004D4D52 /* KeyboardUpSnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA502A878C1C004D4D52 /* KeyboardUpSnapKitViewController.swift */; };
-		CB97FA542A8A245E004D4D52 /* IQKeyboardManagerSwift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA532A8A245E004D4D52 /* IQKeyboardManagerSwift.storyboard */; };
 		CB97FA562A8A2468004D4D52 /* IQKeyboardManagerSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA552A8A2468004D4D52 /* IQKeyboardManagerSwiftViewController.swift */; };
-		CB97FA592A8A39E7004D4D52 /* Then.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA582A8A39E6004D4D52 /* Then.storyboard */; };
 		CB97FA5B2A8A39EE004D4D52 /* ThenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA5A2A8A39EE004D4D52 /* ThenViewController.swift */; };
-		CB97FA5E2A8B5FE8004D4D52 /* Dropdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA5D2A8B5FE8004D4D52 /* Dropdown.storyboard */; };
 		CB97FA602A8B5FEF004D4D52 /* DropdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA5F2A8B5FEF004D4D52 /* DropdownViewController.swift */; };
 		CB97FA652A8E042D004D4D52 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA642A8E042D004D4D52 /* Tutorial.swift */; };
 		CB97FA7A2A961F28004D4D52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA792A961F28004D4D52 /* ViewController.swift */; };
-		CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C352A4FFFAE00DD771B /* Alamofire.storyboard */; };
 		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
 		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
 		CBA63C3D2A50017E00DD771B /* AlamofireResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3C2A50017E00DD771B /* AlamofireResponse.swift */; };
-		CBA63C402A50217000DD771B /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C3F2A50217000DD771B /* Alert.storyboard */; };
 		CBA63C422A50217800DD771B /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C412A50217800DD771B /* AlertViewController.swift */; };
-		CBA63C452A515F2C00DD771B /* MVVM.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C442A515F2C00DD771B /* MVVM.storyboard */; };
 		CBA63C472A515F4500DD771B /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C462A515F4500DD771B /* UserProfileViewController.swift */; };
 		CBA63C492A515F5200DD771B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C482A515F5200DD771B /* User.swift */; };
 		CBA63C4B2A515F6000DD771B /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C4A2A515F6000DD771B /* UserViewModel.swift */; };
-		CBA63C4E2A516A7000DD771B /* MVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C4D2A516A7000DD771B /* MVC.storyboard */; };
 		CBA63C502A516B7B00DD771B /* MVC_User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C4F2A516B7B00DD771B /* MVC_User.swift */; };
 		CBA63C522A516BBA00DD771B /* MVC_UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C512A516BBA00DD771B /* MVC_UserProfileViewController.swift */; };
 		CBA63C542A516C7C00DD771B /* MVC_UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C532A516C7C00DD771B /* MVC_UserProfileController.swift */; };
-		CBA63C582A55A84300DD771B /* MVP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA63C572A55A84200DD771B /* MVP.storyboard */; };
 		CBA63C5A2A55A85400DD771B /* MVP_User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C592A55A85400DD771B /* MVP_User.swift */; };
 		CBA63C5C2A55A86900DD771B /* MVP_UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C5B2A55A86900DD771B /* MVP_UserProfileView.swift */; };
 		CBA63C5E2A55A87F00DD771B /* MVP_UserProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C5D2A55A87F00DD771B /* MVP_UserProfilePresenter.swift */; };
@@ -65,24 +50,16 @@
 		CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2A2A41A2AB00B12F82 /* AppDelegate.swift */; };
 		CBF59E2D2A41A2AB00B12F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2C2A41A2AB00B12F82 /* SceneDelegate.swift */; };
 		CBF59E2F2A41A2AB00B12F82 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2E2A41A2AB00B12F82 /* ChatViewController.swift */; };
-		CBF59E322A41A2AB00B12F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF59E302A41A2AB00B12F82 /* Main.storyboard */; };
-		CBF59E342A41A2AC00B12F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF59E332A41A2AC00B12F82 /* Assets.xcassets */; };
-		CBF59E372A41A2AC00B12F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF59E352A41A2AC00B12F82 /* LaunchScreen.storyboard */; };
 		CBF59E3F2A41A91C00B12F82 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E3E2A41A91C00B12F82 /* SocketIOManager.swift */; };
 		CBF59E432A42F70900B12F82 /* MyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E422A42F70900B12F82 /* MyMessageCell.swift */; };
 		CBF59E452A430F8A00B12F82 /* OtherMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E442A430F8A00B12F82 /* OtherMessageCell.swift */; };
-		CBF59E492A44111D00B12F82 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF59E482A44111D00B12F82 /* Storyboard.storyboard */; };
 		CBF59E4B2A44146600B12F82 /* ChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E4A2A44146600B12F82 /* ChangeViewController.swift */; };
 		CBF59E4D2A45554F00B12F82 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E4C2A45554F00B12F82 /* OtherViewController.swift */; };
-		CBF59E502A455A7600B12F82 /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF59E4F2A455A7600B12F82 /* Navigation.storyboard */; };
 		CBF59E522A455E1800B12F82 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E512A455E1800B12F82 /* MainViewController.swift */; };
-		CBF59E582A47364F00B12F82 /* TableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF59E572A47364F00B12F82 /* TableView.storyboard */; };
 		CBF59E5C2A47369100B12F82 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E5B2A47369100B12F82 /* TableViewCell.swift */; };
 		CBF59E5E2A49C94700B12F82 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E5D2A49C94700B12F82 /* TableViewController.swift */; };
-		CBF59E612A4C078900B12F82 /* ScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF59E602A4C078900B12F82 /* ScrollView.storyboard */; };
 		CBF59E632A4C079A00B12F82 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E622A4C079A00B12F82 /* ScrollViewController.swift */; };
 		CBF59E652A4C33B900B12F82 /* OptionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E642A4C33B900B12F82 /* OptionalViewController.swift */; };
-		CBF59E692A4EA40D00B12F82 /* URLSessionAPI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF59E682A4EA40D00B12F82 /* URLSessionAPI.storyboard */; };
 		CBF59E6F2A4EABD800B12F82 /* ApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E6E2A4EABD800B12F82 /* ApiViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -108,8 +85,9 @@
 		CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
 		CB6518642C47B1C300AAE412 /* Combine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combine.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CB6518652C4AA74400AAE412 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CB6518652C4AA74400AAE412 /* CombineStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CombineStoryboard.storyboard; sourceTree = "<group>"; };
 		CB6518672C4AA75400AAE412 /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
+		CB6518692C4AA84700AAE412 /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
 		CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SnapKit.storyboard; sourceTree = "<group>"; };
 		CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		CB97FA3C2A6FD374004D4D52 /* HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack.swift; sourceTree = "<group>"; };
@@ -295,8 +273,9 @@
 			isa = PBXGroup;
 			children = (
 				CB6518642C47B1C300AAE412 /* Combine.playground */,
-				CB6518652C4AA74400AAE412 /* Storyboard.storyboard */,
+				CB6518652C4AA74400AAE412 /* CombineStoryboard.storyboard */,
 				CB6518672C4AA75400AAE412 /* CombineViewController.swift */,
+				CB6518692C4AA84700AAE412 /* CombineViewModel.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -679,33 +658,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB97FA342A6BC592004D4D52 /* SnapKit.storyboard in Resources */,
-				CBF59E372A41A2AC00B12F82 /* LaunchScreen.storyboard in Resources */,
-				CB0D2FD02A613CB000B18C93 /* Async.storyboard in Resources */,
-				CB0D2FC12A5A8F8600B18C93 /* QuickHelp.storyboard in Resources */,
-				CBA63C402A50217000DD771B /* Alert.storyboard in Resources */,
-				CB0D2FB52A593F5500B18C93 /* Singleton.storyboard in Resources */,
-				CBF59E692A4EA40D00B12F82 /* URLSessionAPI.storyboard in Resources */,
-				CBF59E492A44111D00B12F82 /* Storyboard.storyboard in Resources */,
-				CBA63C362A4FFFAE00DD771B /* Alamofire.storyboard in Resources */,
-				CB97FA5E2A8B5FE8004D4D52 /* Dropdown.storyboard in Resources */,
-				CBA63C452A515F2C00DD771B /* MVVM.storyboard in Resources */,
-				CBF59E502A455A7600B12F82 /* Navigation.storyboard in Resources */,
-				CBA63C4E2A516A7000DD771B /* MVC.storyboard in Resources */,
-				CB0D2FD52A6277C600B18C93 /* CompletionHandler.storyboard in Resources */,
-				CB97FA592A8A39E7004D4D52 /* Then.storyboard in Resources */,
-				CBA63C582A55A84300DD771B /* MVP.storyboard in Resources */,
-				CB0D2FBE2A594A2C00B18C93 /* BuilderPattern.storyboard in Resources */,
-				CBF59E342A41A2AC00B12F82 /* Assets.xcassets in Resources */,
-				CBF59E322A41A2AB00B12F82 /* Main.storyboard in Resources */,
-				CB97FA542A8A245E004D4D52 /* IQKeyboardManagerSwift.storyboard in Resources */,
-				CB6518662C4AA74400AAE412 /* Storyboard.storyboard in Resources */,
-				CBF59E582A47364F00B12F82 /* TableView.storyboard in Resources */,
-				CB0D2FDA2A641CF300B18C93 /* PickerView.storyboard in Resources */,
-				CB97FA442A73BDF0004D4D52 /* Picture.storyboard in Resources */,
-				CB97FA4F2A86137C004D4D52 /* KeyboardUp.storyboard in Resources */,
-				CB0D2FC62A5BD5BE00B18C93 /* Dependency.storyboard in Resources */,
-				CBF59E612A4C078900B12F82 /* ScrollView.storyboard in Resources */,
+				CB65186C2C4AB34400AAE412 /* CombineViewController.swift in Resources */,
+				CB65186D2C4AB34400AAE412 /* CombineViewModel.swift in Resources */,
+				CB65186B2C4AB32500AAE412 /* CombineStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,6 +747,7 @@
 				CB97FA7A2A961F28004D4D52 /* ViewController.swift in Sources */,
 				CB0D2FC82A5BD5CB00B18C93 /* DependencyViewController.swift in Sources */,
 				CB97FA482A762B19004D4D52 /* UseControllerPictureViewController.swift in Sources */,
+				CB65186A2C4AA84700AAE412 /* CombineViewModel.swift in Sources */,
 				CB0D2FD22A613CBA00B18C93 /* AsyncViewController.swift in Sources */,
 				CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */,
 				CBA63C3D2A50017E00DD771B /* AlamofireResponse.swift in Sources */,
@@ -882,7 +838,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -936,7 +892,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -954,17 +910,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7TYNR98TC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticeSwift/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "마이크 접근 권한을 허용!";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "앨범 접근 권한을 허용!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -986,17 +942,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7TYNR98TC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticeSwift/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "마이크 접근 권한을 허용!";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "앨범 접근 권한을 허용!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
