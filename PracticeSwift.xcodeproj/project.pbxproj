@@ -23,6 +23,8 @@
 		CB0D2FDA2A641CF300B18C93 /* PickerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0D2FD92A641CF300B18C93 /* PickerView.storyboard */; };
 		CB0D2FDC2A641CFB00B18C93 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */; };
 		CB0D2FDF2A693B2C00B18C93 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */; };
+		CB6518662C4AA74400AAE412 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6518652C4AA74400AAE412 /* Storyboard.storyboard */; };
+		CB6518682C4AA75400AAE412 /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6518672C4AA75400AAE412 /* CombineViewController.swift */; };
 		CB97FA342A6BC592004D4D52 /* SnapKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */; };
 		CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */; };
 		CB97FA3D2A6FD374004D4D52 /* HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3C2A6FD374004D4D52 /* HStack.swift */; };
@@ -106,6 +108,8 @@
 		CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
 		CB6518642C47B1C300AAE412 /* Combine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combine.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB6518652C4AA74400AAE412 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CB6518672C4AA75400AAE412 /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
 		CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SnapKit.storyboard; sourceTree = "<group>"; };
 		CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		CB97FA3C2A6FD374004D4D52 /* HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack.swift; sourceTree = "<group>"; };
@@ -291,6 +295,8 @@
 			isa = PBXGroup;
 			children = (
 				CB6518642C47B1C300AAE412 /* Combine.playground */,
+				CB6518652C4AA74400AAE412 /* Storyboard.storyboard */,
+				CB6518672C4AA75400AAE412 /* CombineViewController.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -693,6 +699,7 @@
 				CBF59E342A41A2AC00B12F82 /* Assets.xcassets in Resources */,
 				CBF59E322A41A2AB00B12F82 /* Main.storyboard in Resources */,
 				CB97FA542A8A245E004D4D52 /* IQKeyboardManagerSwift.storyboard in Resources */,
+				CB6518662C4AA74400AAE412 /* Storyboard.storyboard in Resources */,
 				CBF59E582A47364F00B12F82 /* TableView.storyboard in Resources */,
 				CB0D2FDA2A641CF300B18C93 /* PickerView.storyboard in Resources */,
 				CB97FA442A73BDF0004D4D52 /* Picture.storyboard in Resources */,
@@ -769,6 +776,7 @@
 				CBF59E3F2A41A91C00B12F82 /* SocketIOManager.swift in Sources */,
 				CBA63C502A516B7B00DD771B /* MVC_User.swift in Sources */,
 				CBF59E2F2A41A2AB00B12F82 /* ChatViewController.swift in Sources */,
+				CB6518682C4AA75400AAE412 /* CombineViewController.swift in Sources */,
 				CB97FA3D2A6FD374004D4D52 /* HStack.swift in Sources */,
 				CBF59E5C2A47369100B12F82 /* TableViewCell.swift in Sources */,
 				CBF59E5E2A49C94700B12F82 /* TableViewController.swift in Sources */,
