@@ -21,7 +21,6 @@ class CombineViewController : ViewController {
         
         viewModel = CombineViewModel()
         
-        
         // 뷰모델에서 뷰컨트롤러의 텍스트 필드를 구독
         txtPassword
             .myPublisher

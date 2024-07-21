@@ -21,6 +21,8 @@
 		CB65186B2C4AB32500AAE412 /* CombineStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6518652C4AA74400AAE412 /* CombineStoryboard.storyboard */; };
 		CB65186C2C4AB34400AAE412 /* CombineViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = CB6518672C4AA75400AAE412 /* CombineViewController.swift */; };
 		CB65186D2C4AB34400AAE412 /* CombineViewModel.swift in Resources */ = {isa = PBXBuildFile; fileRef = CB6518692C4AA84700AAE412 /* CombineViewModel.swift */; };
+		CB6518702C4CE53800AAE412 /* Debounce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB65186F2C4CE53800AAE412 /* Debounce.storyboard */; };
+		CB6518722C4CE54800AAE412 /* CombineDebounceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6518712C4CE54800AAE412 /* CombineDebounceViewController.swift */; };
 		CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */; };
 		CB97FA3D2A6FD374004D4D52 /* HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3C2A6FD374004D4D52 /* HStack.swift */; };
 		CB97FA3F2A6FD384004D4D52 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3E2A6FD384004D4D52 /* VStack.swift */; };
@@ -88,6 +90,8 @@
 		CB6518652C4AA74400AAE412 /* CombineStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CombineStoryboard.storyboard; sourceTree = "<group>"; };
 		CB6518672C4AA75400AAE412 /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
 		CB6518692C4AA84700AAE412 /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
+		CB65186F2C4CE53800AAE412 /* Debounce.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Debounce.storyboard; sourceTree = "<group>"; };
+		CB6518712C4CE54800AAE412 /* CombineDebounceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDebounceViewController.swift; sourceTree = "<group>"; };
 		CB97FA332A6BC592004D4D52 /* SnapKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SnapKit.storyboard; sourceTree = "<group>"; };
 		CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		CB97FA3C2A6FD374004D4D52 /* HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack.swift; sourceTree = "<group>"; };
@@ -272,12 +276,22 @@
 		CB6518632C47B1B100AAE412 /* Combine */ = {
 			isa = PBXGroup;
 			children = (
+				CB65186E2C4CE52000AAE412 /* CombineDebounce */,
 				CB6518642C47B1C300AAE412 /* Combine.playground */,
 				CB6518652C4AA74400AAE412 /* CombineStoryboard.storyboard */,
 				CB6518672C4AA75400AAE412 /* CombineViewController.swift */,
 				CB6518692C4AA84700AAE412 /* CombineViewModel.swift */,
 			);
 			path = Combine;
+			sourceTree = "<group>";
+		};
+		CB65186E2C4CE52000AAE412 /* CombineDebounce */ = {
+			isa = PBXGroup;
+			children = (
+				CB65186F2C4CE53800AAE412 /* Debounce.storyboard */,
+				CB6518712C4CE54800AAE412 /* CombineDebounceViewController.swift */,
+			);
+			path = CombineDebounce;
 			sourceTree = "<group>";
 		};
 		CB97FA392A6FD351004D4D52 /* Stack */ = {
@@ -661,6 +675,7 @@
 				CB65186C2C4AB34400AAE412 /* CombineViewController.swift in Resources */,
 				CB65186D2C4AB34400AAE412 /* CombineViewModel.swift in Resources */,
 				CB65186B2C4AB32500AAE412 /* CombineStoryboard.storyboard in Resources */,
+				CB6518702C4CE53800AAE412 /* Debounce.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,6 +733,7 @@
 				CBF59E452A430F8A00B12F82 /* OtherMessageCell.swift in Sources */,
 				CB0D2FDF2A693B2C00B18C93 /* SnapKitViewController.swift in Sources */,
 				CBA63C542A516C7C00DD771B /* MVC_UserProfileController.swift in Sources */,
+				CB6518722C4CE54800AAE412 /* CombineDebounceViewController.swift in Sources */,
 				CB0D2FD72A6277D100B18C93 /* CompletionViewController.swift in Sources */,
 				CB0D2FDC2A641CFB00B18C93 /* PickerViewController.swift in Sources */,
 				CB0D2FC32A5A8F9100B18C93 /* QuickHelpViewController.swift in Sources */,
