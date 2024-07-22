@@ -40,4 +40,21 @@ class CombineApiViewModel : ObservableObject {
             })
             .store(in: &subscriptions)
     }
+    
+    // todos + posts
+    func fetchTodosAndPostAtTheSameTime(){
+        ApiService.fetchTodosAndPostAtTheSameTime()
+            .sink(receiveCompletion: { completion in
+                switch completion {
+                case .failure(let error) :
+                    print("fetchTodosAndPostAtTheSameTime - error : \(error)")
+                case .finished :
+                    print("fetchTodosAndPostAtTheSameTime - finished")
+                }
+            }, receiveValue: { (todos : [Todo], posts : [Post]) in
+                print("fetchTodosAndPostAtTheSameTime - todos.count = \(todos.count)")
+                print("fetchTodosAndPostAtTheSameTime - posts.count = \(posts.count)")
+            })
+            .store(in: &subscriptions)
+    }
 }

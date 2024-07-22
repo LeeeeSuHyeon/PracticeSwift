@@ -26,5 +26,8 @@ class CombineAPIViewController: UIViewController {
         viewModel.fetchPosts()
     }
 
-
+    @IBAction func btnTodosAndPosts(_ sender: UIButton) {
+        viewModel.fetchTodosAndPostAtTheSameTime()
+    }
+    
 }

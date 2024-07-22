@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="cyG-kw-LBI">
-                                <rect key="frame" x="150" y="259" width="93" height="110"/>
+                                <rect key="frame" x="50" y="259" width="293" height="184"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6P-Ae-EhW">
-                                        <rect key="frame" x="0.0" y="0.0" width="93" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="293" height="36"/>
                                         <color key="backgroundColor" red="0.85098040100000005" green="0.85098040100000005" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -32,7 +32,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bK5-g1-efU">
-                                        <rect key="frame" x="0.0" y="74" width="93" height="36"/>
+                                        <rect key="frame" x="0.0" y="74" width="293" height="36"/>
                                         <color key="backgroundColor" red="0.85098040100000005" green="0.85098040100000005" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -43,15 +43,27 @@
                                             <action selector="btnPost:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Hwc-8Y-U9M"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBv-Gb-0IU">
+                                        <rect key="frame" x="0.0" y="148" width="293" height="36"/>
+                                        <color key="backgroundColor" red="0.85098040100000005" green="0.85098040100000005" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="todo + post 호출">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnTodosAndPosts:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="hmy-ES-0cv"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="cyG-kw-LBI" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="150" id="18W-2i-5E4"/>
+                            <constraint firstItem="cyG-kw-LBI" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="18W-2i-5E4"/>
                             <constraint firstItem="cyG-kw-LBI" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="200" id="FjQ-wW-Tc2"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="cyG-kw-LBI" secondAttribute="trailing" constant="150" id="OrA-vh-DUn"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="cyG-kw-LBI" secondAttribute="trailing" constant="50" id="OrA-vh-DUn"/>
                         </constraints>
                     </view>
                 </viewController>
