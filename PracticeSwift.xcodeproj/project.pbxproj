@@ -8,67 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		31B8F07522BD044FC6F0C0CF /* Pods_PracticeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1947A08ADD13AE46B968E /* Pods_PracticeSwift.framework */; };
-		CB0D2FB72A593F6000B18C93 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FB62A593F6000B18C93 /* SingletonViewController.swift */; };
-		CB0D2FBA2A5948A000B18C93 /* BuilderPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FB92A5948A000B18C93 /* BuilderPatternViewController.swift */; };
-		CB0D2FC32A5A8F9100B18C93 /* QuickHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FC22A5A8F9100B18C93 /* QuickHelpViewController.swift */; };
-		CB0D2FC82A5BD5CB00B18C93 /* DependencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FC72A5BD5CB00B18C93 /* DependencyViewController.swift */; };
-		CB0D2FD22A613CBA00B18C93 /* AsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FD12A613CBA00B18C93 /* AsyncViewController.swift */; };
-		CB0D2FD72A6277D100B18C93 /* CompletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FD62A6277D100B18C93 /* CompletionViewController.swift */; };
-		CB0D2FDC2A641CFB00B18C93 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDB2A641CFB00B18C93 /* PickerViewController.swift */; };
-		CB0D2FDF2A693B2C00B18C93 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D2FDE2A693B2C00B18C93 /* SnapKitViewController.swift */; };
-		CB6518682C4AA75400AAE412 /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6518672C4AA75400AAE412 /* CombineViewController.swift */; };
-		CB65186A2C4AA84700AAE412 /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6518692C4AA84700AAE412 /* CombineViewModel.swift */; };
-		CB65186B2C4AB32500AAE412 /* CombineStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6518652C4AA74400AAE412 /* CombineStoryboard.storyboard */; };
-		CB65186C2C4AB34400AAE412 /* CombineViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = CB6518672C4AA75400AAE412 /* CombineViewController.swift */; };
-		CB65186D2C4AB34400AAE412 /* CombineViewModel.swift in Resources */ = {isa = PBXBuildFile; fileRef = CB6518692C4AA84700AAE412 /* CombineViewModel.swift */; };
-		CB6518702C4CE53800AAE412 /* Debounce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB65186F2C4CE53800AAE412 /* Debounce.storyboard */; };
-		CB6518722C4CE54800AAE412 /* CombineDebounceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6518712C4CE54800AAE412 /* CombineDebounceViewController.swift */; };
-		CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA372A6CF963004D4D52 /* UIKitViewController.swift */; };
-		CB97FA3D2A6FD374004D4D52 /* HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3C2A6FD374004D4D52 /* HStack.swift */; };
-		CB97FA3F2A6FD384004D4D52 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA3E2A6FD384004D4D52 /* VStack.swift */; };
-		CB97FA462A73BDFA004D4D52 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA452A73BDFA004D4D52 /* PictureViewController.swift */; };
-		CB97FA482A762B19004D4D52 /* UseControllerPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA472A762B19004D4D52 /* UseControllerPictureViewController.swift */; };
-		CB97FA4D2A8514D3004D4D52 /* KeyboardUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA4C2A8514D3004D4D52 /* KeyboardUpViewController.swift */; };
-		CB97FA512A878C1C004D4D52 /* KeyboardUpSnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA502A878C1C004D4D52 /* KeyboardUpSnapKitViewController.swift */; };
-		CB97FA562A8A2468004D4D52 /* IQKeyboardManagerSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA552A8A2468004D4D52 /* IQKeyboardManagerSwiftViewController.swift */; };
-		CB97FA5B2A8A39EE004D4D52 /* ThenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA5A2A8A39EE004D4D52 /* ThenViewController.swift */; };
-		CB97FA602A8B5FEF004D4D52 /* DropdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA5F2A8B5FEF004D4D52 /* DropdownViewController.swift */; };
-		CB97FA652A8E042D004D4D52 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA642A8E042D004D4D52 /* Tutorial.swift */; };
-		CB97FA7A2A961F28004D4D52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97FA792A961F28004D4D52 /* ViewController.swift */; };
-		CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C382A4FFFCA00DD771B /* AlamofireViewController.swift */; };
-		CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3A2A50016A00DD771B /* AlamofireRequest.swift */; };
-		CBA63C3D2A50017E00DD771B /* AlamofireResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C3C2A50017E00DD771B /* AlamofireResponse.swift */; };
-		CBA63C422A50217800DD771B /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C412A50217800DD771B /* AlertViewController.swift */; };
-		CBA63C472A515F4500DD771B /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C462A515F4500DD771B /* UserProfileViewController.swift */; };
-		CBA63C492A515F5200DD771B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C482A515F5200DD771B /* User.swift */; };
-		CBA63C4B2A515F6000DD771B /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C4A2A515F6000DD771B /* UserViewModel.swift */; };
-		CBA63C502A516B7B00DD771B /* MVC_User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C4F2A516B7B00DD771B /* MVC_User.swift */; };
-		CBA63C522A516BBA00DD771B /* MVC_UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C512A516BBA00DD771B /* MVC_UserProfileViewController.swift */; };
-		CBA63C542A516C7C00DD771B /* MVC_UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C532A516C7C00DD771B /* MVC_UserProfileController.swift */; };
-		CBA63C5A2A55A85400DD771B /* MVP_User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C592A55A85400DD771B /* MVP_User.swift */; };
-		CBA63C5C2A55A86900DD771B /* MVP_UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C5B2A55A86900DD771B /* MVP_UserProfileView.swift */; };
-		CBA63C5E2A55A87F00DD771B /* MVP_UserProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C5D2A55A87F00DD771B /* MVP_UserProfilePresenter.swift */; };
-		CBA63C602A55A89700DD771B /* MVP_UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C5F2A55A89700DD771B /* MVP_UserProfileViewController.swift */; };
-		CBE615C02C4E30CC00BB794C /* CombineAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE615BF2C4E30CC00BB794C /* CombineAPIViewController.swift */; };
-		CBE615C22C4E30D500BB794C /* CombineAPI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE615C12C4E30D500BB794C /* CombineAPI.storyboard */; };
-		CBE615C42C4E328900BB794C /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE615C32C4E328900BB794C /* Todo.swift */; };
-		CBE615C62C4E329500BB794C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE615C52C4E329500BB794C /* Post.swift */; };
-		CBE615C92C4E32F700BB794C /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE615C82C4E32F700BB794C /* ApiService.swift */; };
-		CBE615CC2C4E348800BB794C /* CombineApiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE615CB2C4E348800BB794C /* CombineApiViewModel.swift */; };
-		CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2A2A41A2AB00B12F82 /* AppDelegate.swift */; };
-		CBF59E2D2A41A2AB00B12F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2C2A41A2AB00B12F82 /* SceneDelegate.swift */; };
-		CBF59E2F2A41A2AB00B12F82 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2E2A41A2AB00B12F82 /* ChatViewController.swift */; };
-		CBF59E3F2A41A91C00B12F82 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E3E2A41A91C00B12F82 /* SocketIOManager.swift */; };
-		CBF59E432A42F70900B12F82 /* MyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E422A42F70900B12F82 /* MyMessageCell.swift */; };
-		CBF59E452A430F8A00B12F82 /* OtherMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E442A430F8A00B12F82 /* OtherMessageCell.swift */; };
-		CBF59E4B2A44146600B12F82 /* ChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E4A2A44146600B12F82 /* ChangeViewController.swift */; };
-		CBF59E4D2A45554F00B12F82 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E4C2A45554F00B12F82 /* OtherViewController.swift */; };
-		CBF59E522A455E1800B12F82 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E512A455E1800B12F82 /* MainViewController.swift */; };
-		CBF59E5C2A47369100B12F82 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E5B2A47369100B12F82 /* TableViewCell.swift */; };
-		CBF59E5E2A49C94700B12F82 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E5D2A49C94700B12F82 /* TableViewController.swift */; };
-		CBF59E632A4C079A00B12F82 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E622A4C079A00B12F82 /* ScrollViewController.swift */; };
-		CBF59E652A4C33B900B12F82 /* OptionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E642A4C33B900B12F82 /* OptionalViewController.swift */; };
-		CBF59E6F2A4EABD800B12F82 /* ApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E6E2A4EABD800B12F82 /* ApiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +87,7 @@
 		CBE615C52C4E329500BB794C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		CBE615C82C4E32F700BB794C /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		CBE615CB2C4E348800BB794C /* CombineApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineApiViewModel.swift; sourceTree = "<group>"; };
+		CBE615CF2C4E402E00BB794C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CBF59E272A41A2AB00B12F82 /* PracticeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF59E2A2A41A2AB00B12F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF59E2C2A41A2AB00B12F82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -498,6 +438,7 @@
 			children = (
 				CBE615C32C4E328900BB794C /* Todo.swift */,
 				CBE615C52C4E329500BB794C /* Post.swift */,
+				CBE615CF2C4E402E00BB794C /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -670,9 +611,7 @@
 			buildConfigurationList = CBF59E3B2A41A2AC00B12F82 /* Build configuration list for PBXNativeTarget "PracticeSwift" */;
 			buildPhases = (
 				03BBA0506A023535CC84184B /* [CP] Check Pods Manifest.lock */,
-				CBF59E232A41A2AB00B12F82 /* Sources */,
 				CBF59E242A41A2AB00B12F82 /* Frameworks */,
-				CBF59E252A41A2AB00B12F82 /* Resources */,
 				52163595F37A1E3FABE55B0D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -692,7 +631,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					CBF59E262A41A2AB00B12F82 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -716,21 +655,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		CBF59E252A41A2AB00B12F82 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB65186C2C4AB34400AAE412 /* CombineViewController.swift in Resources */,
-				CB65186D2C4AB34400AAE412 /* CombineViewModel.swift in Resources */,
-				CBE615C22C4E30D500BB794C /* CombineAPI.storyboard in Resources */,
-				CB65186B2C4AB32500AAE412 /* CombineStoryboard.storyboard in Resources */,
-				CB6518702C4CE53800AAE412 /* Debounce.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		03BBA0506A023535CC84184B /* [CP] Check Pods Manifest.lock */ = {
@@ -773,72 +697,6 @@
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		CBF59E232A41A2AB00B12F82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CBF59E4B2A44146600B12F82 /* ChangeViewController.swift in Sources */,
-				CBA63C5C2A55A86900DD771B /* MVP_UserProfileView.swift in Sources */,
-				CBF59E452A430F8A00B12F82 /* OtherMessageCell.swift in Sources */,
-				CB0D2FDF2A693B2C00B18C93 /* SnapKitViewController.swift in Sources */,
-				CBA63C542A516C7C00DD771B /* MVC_UserProfileController.swift in Sources */,
-				CB6518722C4CE54800AAE412 /* CombineDebounceViewController.swift in Sources */,
-				CBE615C92C4E32F700BB794C /* ApiService.swift in Sources */,
-				CB0D2FD72A6277D100B18C93 /* CompletionViewController.swift in Sources */,
-				CB0D2FDC2A641CFB00B18C93 /* PickerViewController.swift in Sources */,
-				CB0D2FC32A5A8F9100B18C93 /* QuickHelpViewController.swift in Sources */,
-				CBE615CC2C4E348800BB794C /* CombineApiViewModel.swift in Sources */,
-				CBA63C472A515F4500DD771B /* UserProfileViewController.swift in Sources */,
-				CB97FA462A73BDFA004D4D52 /* PictureViewController.swift in Sources */,
-				CB0D2FBA2A5948A000B18C93 /* BuilderPatternViewController.swift in Sources */,
-				CBF59E432A42F70900B12F82 /* MyMessageCell.swift in Sources */,
-				CBA63C5A2A55A85400DD771B /* MVP_User.swift in Sources */,
-				CBA63C5E2A55A87F00DD771B /* MVP_UserProfilePresenter.swift in Sources */,
-				CB0D2FB72A593F6000B18C93 /* SingletonViewController.swift in Sources */,
-				CBF59E3F2A41A91C00B12F82 /* SocketIOManager.swift in Sources */,
-				CBA63C502A516B7B00DD771B /* MVC_User.swift in Sources */,
-				CBF59E2F2A41A2AB00B12F82 /* ChatViewController.swift in Sources */,
-				CB6518682C4AA75400AAE412 /* CombineViewController.swift in Sources */,
-				CBE615C42C4E328900BB794C /* Todo.swift in Sources */,
-				CB97FA3D2A6FD374004D4D52 /* HStack.swift in Sources */,
-				CBF59E5C2A47369100B12F82 /* TableViewCell.swift in Sources */,
-				CBE615C62C4E329500BB794C /* Post.swift in Sources */,
-				CBF59E5E2A49C94700B12F82 /* TableViewController.swift in Sources */,
-				CBA63C492A515F5200DD771B /* User.swift in Sources */,
-				CBF59E632A4C079A00B12F82 /* ScrollViewController.swift in Sources */,
-				CBF59E4D2A45554F00B12F82 /* OtherViewController.swift in Sources */,
-				CBA63C522A516BBA00DD771B /* MVC_UserProfileViewController.swift in Sources */,
-				CBF59E522A455E1800B12F82 /* MainViewController.swift in Sources */,
-				CB97FA4D2A8514D3004D4D52 /* KeyboardUpViewController.swift in Sources */,
-				CBA63C3B2A50016A00DD771B /* AlamofireRequest.swift in Sources */,
-				CBA63C392A4FFFCA00DD771B /* AlamofireViewController.swift in Sources */,
-				CB97FA5B2A8A39EE004D4D52 /* ThenViewController.swift in Sources */,
-				CB97FA7A2A961F28004D4D52 /* ViewController.swift in Sources */,
-				CB0D2FC82A5BD5CB00B18C93 /* DependencyViewController.swift in Sources */,
-				CB97FA482A762B19004D4D52 /* UseControllerPictureViewController.swift in Sources */,
-				CB65186A2C4AA84700AAE412 /* CombineViewModel.swift in Sources */,
-				CB0D2FD22A613CBA00B18C93 /* AsyncViewController.swift in Sources */,
-				CB97FA382A6CF963004D4D52 /* UIKitViewController.swift in Sources */,
-				CBA63C3D2A50017E00DD771B /* AlamofireResponse.swift in Sources */,
-				CBA63C422A50217800DD771B /* AlertViewController.swift in Sources */,
-				CB97FA562A8A2468004D4D52 /* IQKeyboardManagerSwiftViewController.swift in Sources */,
-				CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */,
-				CBF59E6F2A4EABD800B12F82 /* ApiViewController.swift in Sources */,
-				CB97FA512A878C1C004D4D52 /* KeyboardUpSnapKitViewController.swift in Sources */,
-				CBF59E652A4C33B900B12F82 /* OptionalViewController.swift in Sources */,
-				CB97FA602A8B5FEF004D4D52 /* DropdownViewController.swift in Sources */,
-				CB97FA652A8E042D004D4D52 /* Tutorial.swift in Sources */,
-				CBE615C02C4E30CC00BB794C /* CombineAPIViewController.swift in Sources */,
-				CB97FA3F2A6FD384004D4D52 /* VStack.swift in Sources */,
-				CBA63C4B2A515F6000DD771B /* UserViewModel.swift in Sources */,
-				CBF59E2D2A41A2AB00B12F82 /* SceneDelegate.swift in Sources */,
-				CBA63C602A55A89700DD771B /* MVP_UserProfileViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
 		CBF59E302A41A2AB00B12F82 /* Main.storyboard */ = {
@@ -896,6 +754,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -910,7 +769,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -956,6 +815,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -964,7 +824,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

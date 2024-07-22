@@ -73,4 +73,64 @@ class CombineApiViewModel : ObservableObject {
             })
             .store(in: &subscriptions)
     }
+    
+    // Todos 호출 후 조건에 따라 응답으로 Posts 호출
+    func fetchTodosFilteringPosts(){
+        ApiService.fetchTodosFilteringPosts()
+            .sink(receiveCompletion: { completion in
+                switch completion {
+                case .failure(let error) :
+                    print("fetchTodosFilteringPosts - error : \(error)")
+                case .finished :
+                    print("fetchTodosFilteringPosts - finished")
+                }
+            }, receiveValue: { (posts : [Post]) in
+                print("fetchTodosFilteringPosts - posts.count = \(posts.count)")
+            })
+            .store(in: &subscriptions)
+    }
+    
+    // Todos 호출 후 응답에 따른 조건으로 다음 API 호출 결정
+    // todos.count < 200 ? Posts 호출 : Users 호출
+    func fetchAnotherAPIBasedOnResponse(){
+        let shouldFetchPosts : AnyPublisher<Bool, Error> = {
+            ApiService.fetchTodos()
+                .map { $0.count < 200}
+                .eraseToAnyPublisher()
+        }()
+        
+        shouldFetchPosts
+            .filter{$0 == true}
+            .flatMap{ _ in
+                return ApiService.fetchPosts()
+            }.sink(receiveCompletion: { completion in
+                switch completion {
+                case .failure(let error):
+                    print("fetchAnotherAPIBasedOnResponse - fetchPosts : err : \(error)")
+                case .finished :
+                    print("fetchAnotherAPIBasedOnResponse - fetchPosts - finished")
+                }
+                
+            }, receiveValue: { recivedValue in
+                print("fetchAnotherAPIBasedOnResponse - fetchPosts - posts.count : \(recivedValue.count)")
+            })
+            .store(in: &subscriptions)
+        
+        shouldFetchPosts
+            .filter{$0 != true}
+            .flatMap{ _ in
+                return ApiService.fetchUsers()
+            }.sink(receiveCompletion: { completion in
+                switch completion {
+                case .failure(let error):
+                    print("fetchAnotherAPIBasedOnResponse - fetchUsers : err : \(error)")
+                case .finished :
+                    print("fetchAnotherAPIBasedOnResponse - fetchUsers - finished")
+                }
+                
+            }, receiveValue: { recivedValue in
+                print("fetchAnotherAPIBasedOnResponse - fetchUsers - users.count : \(recivedValue.count)")
+            })
+            .store(in: &subscriptions)
+    }
 }
