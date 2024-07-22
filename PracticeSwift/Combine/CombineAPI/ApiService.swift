@@ -30,7 +30,8 @@ enum ApiService {
             .eraseToAnyPublisher()
     }
     
-    static func fetchPosts() -> AnyPublisher<[Post], Error> {
+    static func fetchPosts(_ todosCount : Int = 0) -> AnyPublisher<[Post], Error> {
+        print("fetchPosts - todos.count = \(todosCount)")
         return URLSession.shared.dataTaskPublisher(for: API.fetchPosts.url)
             .map{$0.data}
             .decode(type: [Post].self, decoder: JSONDecoder())
@@ -45,4 +46,14 @@ enum ApiService {
             .CombineLatest(fetchedTodos, fetchedPosts)
             .eraseToAnyPublisher()
     }
+    
+    
+    // Todos 호출 후 응답으로 Posts 호출
+    static func fetchTodosAndThenPosts() -> AnyPublisher<[Post], Error> {
+        return fetchTodos().flatMap{ todos in
+            fetchPosts(todos.count).eraseToAnyPublisher()   // 매개 변수로 활용
+        }.eraseToAnyPublisher()
+        
+    }
 }
+

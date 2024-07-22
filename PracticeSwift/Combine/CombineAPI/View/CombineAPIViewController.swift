@@ -26,8 +26,13 @@ class CombineAPIViewController: UIViewController {
         viewModel.fetchPosts()
     }
 
+    // Todos + Posts 동시 호출
     @IBAction func btnTodosAndPosts(_ sender: UIButton) {
         viewModel.fetchTodosAndPostAtTheSameTime()
     }
     
+    // Todos 호출 후 응답으로 Posts 호출
+    @IBAction func btnTodoesAndThenPosts(_ sender: UIButton) {
+        viewModel.fetchTodosAndThenPosts()
+    }
 }

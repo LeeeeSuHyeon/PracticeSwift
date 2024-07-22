@@ -57,4 +57,20 @@ class CombineApiViewModel : ObservableObject {
             })
             .store(in: &subscriptions)
     }
+    
+    // todos 호출 후 응답으로 posts 호출
+    func fetchTodosAndThenPosts(){
+        ApiService.fetchTodosAndThenPosts()
+            .sink(receiveCompletion: { completion in
+                switch completion {
+                case .failure(let error) :
+                    print("fetchTodosAndThenPosts - error : \(error)")
+                case .finished :
+                    print("fetchTodosAndThenPosts - finished")
+                }
+            }, receiveValue: { (posts : [Post]) in
+                print("fetchTodosAndThenPosts - posts.count = \(posts.count)")
+            })
+            .store(in: &subscriptions)
+    }
 }
