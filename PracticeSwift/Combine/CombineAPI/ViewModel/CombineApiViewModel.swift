@@ -1,0 +1,43 @@
+//
+//  CombineViewModel.swift
+//  PracticeSwift
+//
+//  Created by 이수현 on 7/22/24.
+//
+
+import Foundation
+import Combine
+
+class CombineApiViewModel : ObservableObject {
+    var subscriptions = Set<AnyCancellable>()
+    
+    func fetchTodos(){
+        ApiService.fetchTodos()
+            .sink(receiveCompletion: { completion in
+                switch completion {
+                case .failure(let error) :
+                    print("fetchTodos - error : \(error)")
+                case .finished :
+                    print("fetchTodos - finished")
+                }
+            }, receiveValue: { receivedValue in
+                print("fetchTodos - receivedValue.count = \(receivedValue.count)")
+            })
+            .store(in: &subscriptions)
+    }
+    
+    func fetchPosts(){
+        ApiService.fetchPosts()
+            .sink(receiveCompletion: { completion in
+                switch completion {
+                case .failure(let error) :
+                    print("fetchPosts - error : \(error)")
+                case .finished :
+                    print("fetchPosts - finished")
+                }
+            }, receiveValue: { receivedValue in
+                print("fetchPosts - receivedValue.count = \(receivedValue.count)")
+            })
+            .store(in: &subscriptions)
+    }
+}

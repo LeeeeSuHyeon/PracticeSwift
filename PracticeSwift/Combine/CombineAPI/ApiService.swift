@@ -1,0 +1,39 @@
+//
+//  ApiService.swift
+//  PracticeSwift
+//
+//  Created by 이수현 on 7/22/24.
+//
+
+import Foundation
+import Combine
+
+enum API {
+    case fetchTodos // 할 일 가져오기
+    case fetchPosts // 포스트 가져오기
+    
+    var url : URL {
+        switch self {
+        case .fetchTodos : return URL(string: "https://jsonplaceholder.typicode.com/todos")!
+        case .fetchPosts : return URL(string: "https://jsonplaceholder.typicode.com/posts")!
+        }
+    }
+}
+
+
+enum ApiService {
+    // static : 객체 인스턴스를 만들지 않아도 함수 호출 가능
+    static func fetchTodos() -> AnyPublisher<[Todo], Error> {
+        return URLSession.shared.dataTaskPublisher(for: API.fetchTodos.url)
+            .map{$0.data}
+            .decode(type: [Todo].self, decoder: JSONDecoder())
+            .eraseToAnyPublisher()
+    }
+    
+    static func fetchPosts() -> AnyPublisher<[Post], Error> {
+        return URLSession.shared.dataTaskPublisher(for: API.fetchPosts.url)
+            .map{$0.data}
+            .decode(type: [Post].self, decoder: JSONDecoder())
+            .eraseToAnyPublisher()
+    }
+}

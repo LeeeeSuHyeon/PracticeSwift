@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>UIMainStoryboardFile</key>
-	<string>Debounce</string>
+	<string>CombineAPI</string>
 	<key>NSCameraUsageDescription </key>
 	<string>카메라 접근 권한을 허용!</string>
 	<key>UIApplicationSceneManifest</key>
@@ -20,7 +20,7 @@
 					<key>UISceneConfigurationName</key>
 					<string>Default Configuration</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Debounce</string>
+					<string>CombineAPI</string>
 				</dict>
 			</array>
 		</dict>

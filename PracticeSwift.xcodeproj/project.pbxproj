@@ -49,6 +49,12 @@
 		CBA63C5C2A55A86900DD771B /* MVP_UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C5B2A55A86900DD771B /* MVP_UserProfileView.swift */; };
 		CBA63C5E2A55A87F00DD771B /* MVP_UserProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C5D2A55A87F00DD771B /* MVP_UserProfilePresenter.swift */; };
 		CBA63C602A55A89700DD771B /* MVP_UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA63C5F2A55A89700DD771B /* MVP_UserProfileViewController.swift */; };
+		CBE615C02C4E30CC00BB794C /* CombineAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE615BF2C4E30CC00BB794C /* CombineAPIViewController.swift */; };
+		CBE615C22C4E30D500BB794C /* CombineAPI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE615C12C4E30D500BB794C /* CombineAPI.storyboard */; };
+		CBE615C42C4E328900BB794C /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE615C32C4E328900BB794C /* Todo.swift */; };
+		CBE615C62C4E329500BB794C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE615C52C4E329500BB794C /* Post.swift */; };
+		CBE615C92C4E32F700BB794C /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE615C82C4E32F700BB794C /* ApiService.swift */; };
+		CBE615CC2C4E348800BB794C /* CombineApiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE615CB2C4E348800BB794C /* CombineApiViewModel.swift */; };
 		CBF59E2B2A41A2AB00B12F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2A2A41A2AB00B12F82 /* AppDelegate.swift */; };
 		CBF59E2D2A41A2AB00B12F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2C2A41A2AB00B12F82 /* SceneDelegate.swift */; };
 		CBF59E2F2A41A2AB00B12F82 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF59E2E2A41A2AB00B12F82 /* ChatViewController.swift */; };
@@ -136,6 +142,12 @@
 		CBA63C5B2A55A86900DD771B /* MVP_UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_UserProfileView.swift; sourceTree = "<group>"; };
 		CBA63C5D2A55A87F00DD771B /* MVP_UserProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_UserProfilePresenter.swift; sourceTree = "<group>"; };
 		CBA63C5F2A55A89700DD771B /* MVP_UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_UserProfileViewController.swift; sourceTree = "<group>"; };
+		CBE615BF2C4E30CC00BB794C /* CombineAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineAPIViewController.swift; sourceTree = "<group>"; };
+		CBE615C12C4E30D500BB794C /* CombineAPI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CombineAPI.storyboard; sourceTree = "<group>"; };
+		CBE615C32C4E328900BB794C /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		CBE615C52C4E329500BB794C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CBE615C82C4E32F700BB794C /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		CBE615CB2C4E348800BB794C /* CombineApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineApiViewModel.swift; sourceTree = "<group>"; };
 		CBF59E272A41A2AB00B12F82 /* PracticeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF59E2A2A41A2AB00B12F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF59E2C2A41A2AB00B12F82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -276,6 +288,7 @@
 		CB6518632C47B1B100AAE412 /* Combine */ = {
 			isa = PBXGroup;
 			children = (
+				CBE615BE2C4E30B300BB794C /* CombineAPI */,
 				CB65186E2C4CE52000AAE412 /* CombineDebounce */,
 				CB6518642C47B1C300AAE412 /* Combine.playground */,
 				CB6518652C4AA74400AAE412 /* CombineStoryboard.storyboard */,
@@ -467,6 +480,43 @@
 				CBA63C5F2A55A89700DD771B /* MVP_UserProfileViewController.swift */,
 			);
 			path = MVP;
+			sourceTree = "<group>";
+		};
+		CBE615BE2C4E30B300BB794C /* CombineAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CBE615CE2C4E357500BB794C /* View */,
+				CBE615CA2C4E347B00BB794C /* ViewModel */,
+				CBE615C72C4E32C900BB794C /* Model */,
+				CBE615C82C4E32F700BB794C /* ApiService.swift */,
+			);
+			path = CombineAPI;
+			sourceTree = "<group>";
+		};
+		CBE615C72C4E32C900BB794C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBE615C32C4E328900BB794C /* Todo.swift */,
+				CBE615C52C4E329500BB794C /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBE615CA2C4E347B00BB794C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBE615CB2C4E348800BB794C /* CombineApiViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CBE615CE2C4E357500BB794C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBE615BF2C4E30CC00BB794C /* CombineAPIViewController.swift */,
+				CBE615C12C4E30D500BB794C /* CombineAPI.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		CBF59E1E2A41A2AB00B12F82 = {
@@ -674,6 +724,7 @@
 			files = (
 				CB65186C2C4AB34400AAE412 /* CombineViewController.swift in Resources */,
 				CB65186D2C4AB34400AAE412 /* CombineViewModel.swift in Resources */,
+				CBE615C22C4E30D500BB794C /* CombineAPI.storyboard in Resources */,
 				CB65186B2C4AB32500AAE412 /* CombineStoryboard.storyboard in Resources */,
 				CB6518702C4CE53800AAE412 /* Debounce.storyboard in Resources */,
 			);
@@ -734,9 +785,11 @@
 				CB0D2FDF2A693B2C00B18C93 /* SnapKitViewController.swift in Sources */,
 				CBA63C542A516C7C00DD771B /* MVC_UserProfileController.swift in Sources */,
 				CB6518722C4CE54800AAE412 /* CombineDebounceViewController.swift in Sources */,
+				CBE615C92C4E32F700BB794C /* ApiService.swift in Sources */,
 				CB0D2FD72A6277D100B18C93 /* CompletionViewController.swift in Sources */,
 				CB0D2FDC2A641CFB00B18C93 /* PickerViewController.swift in Sources */,
 				CB0D2FC32A5A8F9100B18C93 /* QuickHelpViewController.swift in Sources */,
+				CBE615CC2C4E348800BB794C /* CombineApiViewModel.swift in Sources */,
 				CBA63C472A515F4500DD771B /* UserProfileViewController.swift in Sources */,
 				CB97FA462A73BDFA004D4D52 /* PictureViewController.swift in Sources */,
 				CB0D2FBA2A5948A000B18C93 /* BuilderPatternViewController.swift in Sources */,
@@ -748,8 +801,10 @@
 				CBA63C502A516B7B00DD771B /* MVC_User.swift in Sources */,
 				CBF59E2F2A41A2AB00B12F82 /* ChatViewController.swift in Sources */,
 				CB6518682C4AA75400AAE412 /* CombineViewController.swift in Sources */,
+				CBE615C42C4E328900BB794C /* Todo.swift in Sources */,
 				CB97FA3D2A6FD374004D4D52 /* HStack.swift in Sources */,
 				CBF59E5C2A47369100B12F82 /* TableViewCell.swift in Sources */,
+				CBE615C62C4E329500BB794C /* Post.swift in Sources */,
 				CBF59E5E2A49C94700B12F82 /* TableViewController.swift in Sources */,
 				CBA63C492A515F5200DD771B /* User.swift in Sources */,
 				CBF59E632A4C079A00B12F82 /* ScrollViewController.swift in Sources */,
@@ -775,6 +830,7 @@
 				CBF59E652A4C33B900B12F82 /* OptionalViewController.swift in Sources */,
 				CB97FA602A8B5FEF004D4D52 /* DropdownViewController.swift in Sources */,
 				CB97FA652A8E042D004D4D52 /* Tutorial.swift in Sources */,
+				CBE615C02C4E30CC00BB794C /* CombineAPIViewController.swift in Sources */,
 				CB97FA3F2A6FD384004D4D52 /* VStack.swift in Sources */,
 				CBA63C4B2A515F6000DD771B /* UserViewModel.swift in Sources */,
 				CBF59E2D2A41A2AB00B12F82 /* SceneDelegate.swift in Sources */,
